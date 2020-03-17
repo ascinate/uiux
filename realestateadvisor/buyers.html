@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Realestate - Buyers</title>
+    <!-- fav icon -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- animated-css -->
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <!-- font-awesome-css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- owl-carousel-css -->
+    <link href="css/owl-carousel/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/owl-carousel/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+    <!-- offcanvas-menu-css -->
+    <link href="css/offcanvas-menu.css" rel="stylesheet" type="text/css">
+    <!-- style-css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!--aos-css-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+
+</head>
+
+<body class="homePageFive">
+
+    <div class="c-loder-wr">
+        <span>
+            <img src="img/loder.gif">
+        </span>
+    </div>
+
+    <header class="header-section">
+
+        <!--
+    <div class="topper">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="header-left-bar">
+                            <ul class="contact-wrapper">
+                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> Mon - Fri: 9 am - 7 pm</li>
+                                <li><i class="fa fa-mobile" aria-hidden="true"></i> +123 (456) 789 017</li>
+                                <li><i class="fa fa-globe" aria-hidden="true"></i> 901 St. Pault Ave, Main Street ,UK</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="header-right-bar text-right">
+
+                            <div class="social-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+
+        <nav class="navbar navbar-inverse hidden-sm hidden-xs">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="img/advisor-logo.png" width="160px;" alt="image"></a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown"><a href="index.html">Home</a></li>
+
+                        <li class="dropdown"><a href="sellers.html">Seller <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Home value calculator</a></li>
+                                <li><a href="#">Selling costs</a></li>
+                                <li><a href="#">How to market your home</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="active dropdown"><a href="buyers.html">Buyer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Search properties tool</a></li>
+                                <li><a href="#">Financing options</a></li>
+                                <li><a href="#">Communities information</a></li>
+                                <li><a href="#">Mortgage calculator</a></li>
+                                <li><a href="#">School finder tool</a></li>
+                                <li><a href="#">Affordability calculator</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Investor</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+
+                        <li class="dropdown"><a href="about-us.html">About Us <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">About Dean Rouso</a></li>
+                                <li><a href="#">The role of a real estate advisor</a></li>
+                                <li><a href="#">Negotiating difficult real estate deals</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </nav>
+    </header>
+    <!-- header-section -->
+
+    <!--    search-properties-tool-->
+    <section class="search-properties-tool text-center" style="background-image: url(img/random-banner2.jpg)">
+        <div class="container">
+
+            <form>
+
+                <div class="row">
+                    <div class="col-md-4 no-padding">
+                        <input class="form-control" placeholder="City, Area, Zip, MLS#, Address" />
+                    </div>
+                    <div class="col-md-2 no-padding">
+                        <select id="inputState" class="form-control">
+                            <option selected>Single Family</option>
+                            <option>Multi Family</option>
+                            <option>Commercial</option>
+                            <option>Rentals</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1 no-padding">
+                        <select id="inputState" class="form-control">
+                            <option selected>Beds</option>
+                            <option>Any</option>
+                            <option>1+</option>
+                            <option>2+</option>
+                            <option>3+</option>
+                            <option>4+</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1 no-padding">
+                        <select id="inputState" class="form-control">
+                            <option selected>Baths</option>
+                            <option>1+</option>
+                            <option>1.5+</option>
+                            <option>2+</option>
+                            <option>2.5+</option>
+                            <option>3+</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1 no-padding">
+                        <select id="inputState" class="form-control">
+                            <option selected>Min</option>
+                            <option>25,000$</option>
+                            <option>50,000$</option>
+                            <option>75,000$</option>
+                            <option>100,000$</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1 no-padding">
+                        <select id="inputState" class="form-control">
+                            <option selected>Max</option>
+                            <option>50,000$</option>
+                            <option>75,000$</option>
+                            <option>100,000$</option>
+                            <option>125,000$</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 no-padding">
+                        <button type="submit" class="btn btn-danger">Search</button>
+                    </div>
+                </div>
+            </form>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!--    search-properties-tool-->
+
+
+    <!--financing-options-->
+    <section class="c-finansing-wr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="c-financing-options-wr">
+                        <h3>Financing options</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <ul>
+                            <li>Investment property mortgages</li>
+                            <li>Government-backed loans for investors</li>
+                            <li>Home equity loan or home equity line of credit</li>
+                            <li>Commercial residential real estate loans</li>
+                            <li>Peer-to-peer lending</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="c-financing-options-img">
+                        <img src="img/financing-options.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="c-finansing-wr c-communities-wr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="c-financing-options-img">
+                        <img src="img/communities.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <div class="c-financing-options-wr">
+                        <h3>Communities</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mortgage-calculator-wr c-calculater-wr">
+        <div class="container">
+            <div class="c-heading-1">
+                <h2>Mortgage-calculator</h2>
+                <p>Calculate your monthly payments. </p>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <div class="form-group">
+                            <label>Home price</label>
+                            <div class="c-form-control-wr">
+                                <div class="c-form-icon">
+                                    <span>$</span>
+                                </div>
+                                <input type="text" name="" class="c-form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Down payment</label>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="c-form-control-wr">
+                                        <div class="c-form-icon">
+                                            <span>$</span>
+                                        </div>
+                                        <input type="text" name="" class="c-form-control" value="0">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="c-form-control-wr">
+                                        <input type="text" name="" class="c-form-control" value="0.00">
+                                        <div class="c-form-icon">
+                                            <span>$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>*All down payment amounts or percentages entered may not be eligible</p>
+                        <div class="form-group">
+                            <label>Interest rate</label>
+                            <div class="c-form-control-wr">
+                                <input type="text" name="" class="c-form-control">
+                                <div class="c-form-icon">
+                                    <span>%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Loan term </label>
+                            <div class="c-form-control-wr">
+                                <select class="c-form-control">
+                                    <option>Choose loan program</option>
+                                    <option>30 year fixed</option>
+                                    <option>15 year fixed</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="c-collasp-wr">
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#advanced">Advanced <span> </span></button>
+                            <div id="advanced" class="collapse in c-collasp-box">
+                                <div class="form-group">
+                                    <label>Estimated annual Property Tax</label>
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <div class="c-form-control-wr">
+                                                <div class="c-form-icon">
+                                                    <span>$</span>
+                                                </div>
+                                                <input type="text" name="" class="c-form-control" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="c-form-control-wr">
+                                                <input type="text" name="" class="c-form-control" value="0.00">
+                                                <div class="c-form-icon">
+                                                    <span>$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Estimated annual Home Insurance</label>
+                                    <div class="c-form-control-wr">
+                                        <div class="c-form-icon">
+                                            <span>$</span>
+                                        </div>
+                                        <input type="text" name="" class="c-form-control">
+                                        <div class="c-form-icon">
+                                            <span>/ YEAR</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="c-calculater-img-con">
+                        <div class="c-calculater-img-in">
+                            <img src="img/mortgage-calculator-graph.png" alt="">
+                        </div>
+                        <button class="btn btn-info">
+                            Download PDF
+                        </button>
+                        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c-collasp-wr c-amortization-wr">
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#Amortization">Amortization schedule </button>
+                <div id="Amortization" class="collapse  c-collasp-box">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="c-school-find">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="c-school-find-form">
+                    <h4>School finder tool</h4>
+                    <form>
+                        <div class="form-group">
+                            <label>States </label>
+                            <div class="c-form-control-wr">
+                                <select class="c-form-control">
+                                    <option>All States</option>
+                                    <option>States 1 </option>
+                                    <option>States 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>school Name</label>
+                            <div class="c-form-control-wr">
+                                <input type="text" name="" placeholder="Enter school Name" class="c-form-control">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="c-school-find-img">
+                    <img src="img/school-room.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="affordability-calculator-wr c-calculater-wr">
+        <div class="container">
+            <div class="c-heading-1">
+                <h2>Affordability calculator</h2>
+                <p>Calculate your monthly payments. </p>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <h4>Income and Debts</h4>
+                        <div class="form-group">
+                            <label>Annual Income</label>
+                            <div class="c-form-control-wr">
+                                <div class="c-form-icon">
+                                    <span>$</span>
+                                </div>
+                                <input type="text" name="" class="c-form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Monthly debts</label>
+                            <div class="c-form-control-wr">
+                                <div class="c-form-icon">
+                                    <span>$</span>
+                                </div>
+                                <input type="text" name="" class="c-form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Estimated annual property taxes</label>
+                            <div class="c-form-control-wr">
+                                <div class="c-form-icon">
+                                    <span>$</span>
+                                </div>
+                                <input type="text" name="" class="c-form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Estimated annual home insurance</label>
+                            <div class="c-form-control-wr">
+                                <div class="c-form-icon">
+                                    <span>$</span>
+                                </div>
+                                <input type="text" name="" class="c-form-control">
+                            </div>
+                        </div>
+                        <h4>Loan details</h4>
+                        <div class="form-group">
+                            <label>Down payment</label>
+                            <div class="c-form-control-wr">
+                                <div class="c-form-icon">
+                                    <span>$</span>
+                                </div>
+                                <input type="text" name="" class="c-form-control">
+                            </div>
+                        </div>
+                        <p>*All down payment amounts entered may not be eligible</p>
+                        <div class="form-group">
+                            <label>Interest rate</label>
+                            <div class="c-form-control-wr">
+                                <input type="text" name="" class="c-form-control">
+                                <div class="c-form-icon">
+                                    <span>%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Loan term </label>
+                            <div class="c-form-control-wr">
+                                <select class="c-form-control">
+                                    <option>Choose loan program</option>
+                                    <option>30 year fixed</option>
+                                    <option>15 year fixed</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="c-calculater-img-con">
+                        <div class="tamp-Affordability-img">
+                            <img src="img/tamp-Affordability-img.jpg" alt="">
+                        </div>
+                        <div class="c-calculater-img-in">
+                            <img src="img/mortgage-calculator-graph.png" alt="">
+                        </div>
+
+                        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--financing-options-->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
+                        <div class="footer-wrapper">
+                            <!--                            <img src="assets/images/footer-logo.png" alt="">-->
+                            <h3>Contact</h3>
+                            <ul class="location">
+                                <li><i class="fa fa-home" aria-hidden="true"></i>
+                                    <div class="content">
+                                        225 Main St, Lake City, <br> UT 84101
+                                    </div>
+                                </li>
+
+                                <li><i class="fa fa-phone" aria-hidden="true"></i>
+                                    <div class="content">
+                                        +1-(234)-567
+                                    </div>
+                                </li>
+
+                                <li><i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    <div class="content">
+                                        Working Hours: <br> Mon-Fri (9 am - 8 pm)
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> <!-- footer-wrapper -->
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
+                        <div class="footer-wrapper">
+                            <h3>Instagram Feed</h3>
+                            <p><img src="img/feed2.png" border="0"></p>
+                        </div> <!-- footer-wrapper -->
+                    </div>
+
+                    <div class="col-md-3 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                        <div class="footer-wrapper last-wrapper">
+                            <h3>Navigation</h3>
+
+                            <ul class="wrapper-option clearfix">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Investor</a></li>
+                                <li><a href="#">Calculator</a></li>
+                            </ul> <!-- wrapper-option -->
+
+                            <ul class="wrapper-option">
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul> <!-- wrapper-option -->
+                        </div> <!-- footer-wrapper -->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- footer-container -->
+
+
+        <div class="copy-right text-center">
+            <div class="container">
+                <p>2020 &copy; All Rights Reserved.</p>
+            </div>
+        </div> <!-- copy-right -->
+    </footer> <!-- footer-section -->
+
+
+
+    <!-- Off-Canvas View Only -->
+    <section>
+        <div class="container">
+            <div class="header-toggle">
+                <span class="menu-toggle navbar visible-xs visible-sm"><i class="fa fa-bars" aria-hidden="true"></i></span>
+
+                <div id="offcanvas-menu" class="visible-xs visible-sm">
+
+                    <span class="close-menu"><i class="fa fa-times" aria-hidden="true"></i></span>
+
+                    <ul class="menu-wrapper">
+                        <li>
+                            <a class="active dropmenu" href="#">Home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropDown sub-menu">
+                                <li><a href="index.html">Home One</a></li>
+                                <li><a href="index-two.html">Home Two</a></li>
+                                <li><a href="index-three.html">Home Three</a></li>
+                                <li><a href="index-four.html">Home Four</a></li>
+                                <li><a class="active" href="index-five.html">Home Five</a></li>
+                                <li><a href="index-six.html">Home Six</a></li>
+                            </ul><!-- end of dropdown -->
+                        </li><!-- end of li -->
+
+                        <li><a href="about.html">About</a></li><!-- end of li -->
+
+
+                        <li>
+                            <a class="dropmenu" href="#">Service <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropDown sub-menu">
+                                <li><a href="service.html">All Services</a></li>
+                                <li><a href="service-one.html">Service-One</a></li>
+                                <li><a href="service-two.html">Service-Two</a></li>
+                                <li><a href="service-three.html">Service-Three</a></li>
+                                <li><a href="service-four.html">Service-Four</a></li>
+                            </ul><!-- end of dropdown -->
+                        </li><!-- end of li -->
+
+                        <li>
+                            <a class="dropmenu" href="#">Project <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropDown sub-menu">
+                                <li><a href="project.html">Project 4 col</a></li>
+                                <li><a href="project-three.html">Project 3 col</a></li>
+                                <li><a href="project-two.html">Project 2 col</a></li>
+                                <li><a href="single-project.html">Single Project</a></li>
+                            </ul><!-- end of dropdown -->
+                        </li><!-- end of li -->
+
+                        <li>
+                            <a class="dropmenu" href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropDown sub-menu">
+                                <li><a href="career.html">Career</a></li>
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="partner.html">Partner</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="testimonial.html">Testimonial</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="single-blog.html">Single Blog</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                            </ul><!-- end of dropdown -->
+                        </li><!-- end of li -->
+
+                        <li><a href="contact.html">Contact</a></li><!-- end of li -->
+                    </ul> <!-- menu-wrapper -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Off-Canvas View Only -->
+
+    <div id="toTop" class="hidden-xs">
+        <i class="fa fa-chevron-up"></i>
+    </div> <!-- totop -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
