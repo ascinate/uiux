@@ -114,6 +114,10 @@ button:focus {
     font-family: 'Grand Hotel', cursive;
 }
 
+.heading-section p {
+    color: #777777;
+}
+
 @media only screen and (max-width:767px) {
     .heading-section h2 {
         font-size: 32px;
@@ -428,6 +432,12 @@ header #toggle-search2 {
     font-weight: 700;
 }
 
+.default-banner h1 {
+    font-size: 45px;
+    line-height: 67px;
+    font-weight: 700;
+}
+
 @media only screen and (max-width:575px) {
     .banner h1 {
         font-size: 36px;
@@ -635,6 +645,84 @@ header #toggle-search2 {
 
 .classes-card .card-title {
     margin-bottom: 6px;
+}
+
+.apply-modal .modal-header {
+    background-color: #ff005a;
+    border-radius: 4px;
+}
+
+.apply-modal .modal-header span {
+    color: #fff;
+}
+
+.apply-modal .modal-body {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.apply-modal .modal-body h3 {
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid #ff005a;
+    padding-bottom: 8px;
+}
+
+.apply-modal .default-btn {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.apply-modal input {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.apply-modal input:focus {
+    border-bottom: 1px solid #ff005a;
+}
+
+.apply-modal .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    border-bottom: 1px solid #ff005a;
+    outline: 0;
+    box-shadow: none;
+}
+
+.apply-modal .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem 0;
+    margin: 10px auto;
+}
+
+.apply-modal .triangle-down {
+    width: 0;
+    position: relative;
+    left: 0;
+    top: -1px;
+    margin: auto;
+    right: 0;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-top: 20px solid #ff005a;
+}
+
+.apply-modal {
+    padding-right: 0px !important;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
 }
 
 /*our-classes-end*/
@@ -1010,9 +1098,741 @@ main {
 }
 
 .default-banner {
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 /********************
     login/register
+********************/
+
+
+/********************
+      teachers
+********************/
+.teachers-list {
+    display: inline-block;
+}
+
+.teachers-list li {
+    display: inline-block;
+    padding: 0px 6px;
+}
+
+.teachers-list li a {
+    font-size: 16px;
+    color: #777777;
+}
+
+.teachers-list li a:hover {
+    color: #5820bc;
+    transition: 0.3s ease-in-out;
+}
+
+.teachers-images-grid {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.teachers-images-grid img {
+    border-radius: 50%;
+    margin-bottom: 14px;
+}
+
+.teachers-grid {
+    background-color: #bbd0ff40;
+    padding: 30px 25px;
+    border: 2px solid #bbd0ff40;
+}
+
+.teachers-grid:hover {
+    transition: 0.4s ease-in-out;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+
+}
+
+.teachers-grid h4 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 6px;
+}
+
+.teachers-grid h5 {
+    padding-bottom: 10px;
+    font-size: 19px;
+    color: #777777;
+}
+
+.teachers-grid h6 {
+    color: #777777;
+    line-height: 26px;
+    padding-bottom: 14px;
+}
+
+/********************
+      teachers
+********************/
+
+
+
+/********************
+     contact us
+********************/
+.working-hours-div {
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.working-hours-div h4 {
+    padding: 12px 0;
+    background-color: #5820bc;
+    color: #fff;
+}
+
+.contact-us-page-section input {
+    border-radius: 4px;
+    padding: 24px 15px;
+}
+
+.contact-us-page-section textarea {
+    border-radius: 4px;
+    padding: 24px 15px;
+    resize: none;
+}
+
+.contact-us-page-section .default-btn {
+    border-radius: 4px;
+}
+
+.contact-us-upper-box {
+    background-color: #ff005a;
+    padding: 12px 15px 12px 20px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+@media only screen and (max-width:767px) {
+    .contact-us-upper-box {
+        padding: 12px 0;
+    }
+}
+
+.contact-us-upper-box i {
+    font-size: 50px;
+}
+
+.contact-us-upper-box p {
+    margin-bottom: 0px;
+}
+
+.days-of-week {
+    background-color: #b1b1b12e;
+    padding: 20px 20px;
+}
+
+/********************
+     contact us
+********************/
+
+
+/********************
+      about us
+********************/
+
+.about-us-teachers-wrap .teachers-grid:hover {
+    background-color: #fff;
+    border: 2px solid #bbd0ff40;
+    transition: 0.3s ease-in-out;
+    box-shadow: none;
+}
+
+.about-us-mid-section {
+    background-color: #f4f5f7;
+    /*    border-bottom: 1px solid #ddd;*/
+}
+
+.about-us-top-part {
+    padding: 100px 0;
+}
+
+@media only screen and (max-width:991px) {
+    .about-us-top-part {
+        padding: 70px 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about-us-top-part {
+        padding: 40px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+/********************
+      about us
+********************/
+
+
+
+/********************
+      our blog
+********************/
+
+.blog-button {
+    background-color: #ff005a;
+    border-radius: 5px;
+    border: 1px solid #ff005a;
+    color: #fff;
+    position: relative;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 10px;
+    transition: 0.4s linear;
+    font-weight: 400;
+}
+
+.blog-button:hover {
+    margin-right: -20px;
+    padding-right: 40px;
+    transition: 0.3s linear;
+    border: 1px solid #ff005a;
+    background-color: #fff;
+    color: #5820bc;
+}
+
+.blog-button:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    background-color: #ff005a;
+    border-radius: 5px;
+    right: 3px;
+    bottom: 3px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.blog-button:hover::after {
+    opacity: 1;
+    color: #fff;
+    transition: 0.5s ease-in;
+}
+
+.blog-texts h6 {
+    color: #5820bc;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.blog-texts .dosis {
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.blog-texts .dosis:hover {
+    transition: 0.3s ease-in-out;
+    color: #ff005a;
+}
+
+.blog-texts p span {
+    color: #b6b6b6;
+}
+
+.blog-texts p {
+    color: #777777;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.blog-search-part {
+    padding: 15px 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.blog-search-part .form-group {
+    margin-bottom: 0px;
+}
+
+.blog-search-part button {
+    border-radius: 4px;
+}
+
+/*
+.blog-search-part input::placeholder {
+    color: #5820bc;
+}
+*/
+
+.blog-search-part .form-control {
+    background-color: #f4f5f7;
+}
+
+.blog-search-part .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ccc;
+    outline: 0;
+    box-shadow: none;
+}
+
+.latest-news {
+    padding: 15px 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.latest-news img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.latest-news h4 {
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid #ff005a;
+}
+
+.latest-news a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 6px;
+    display: block;
+    max-height: 44px;
+    overflow: hidden;
+}
+
+.latest-news p {
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+}
+
+.right-blog-head:hover {
+    color: #ff005a;
+    transition: 0.3s ease-in-out;
+}
+
+.blog-gallery {
+    padding: 15px 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.blog-gallery h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    display: inline-block;
+    border-bottom: 2px solid #ff005a;
+}
+
+.blog-gallery img {
+    width: 90%;
+}
+
+.blog-grid img {
+    height: 320px;
+}
+
+/********************
+      our blog
+********************/
+
+
+
+/********************
+     Single blog
+********************/
+.blog-grid h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ff005a;
+}
+
+.single-blog-wrap .blog-grid img {
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************
+     Single blog
+********************/
+
+
+
+
+/********************
+     my profile
+********************/
+.cover-photo {
+    height: 230px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.profile-pic-div {
+    margin-top: -50px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #03a9f4;
+}
+
+.my-profile-left {
+    background-color: #ff005a;
+}
+
+.profile-holder-details {
+    color: #fff;
+}
+
+.profile-pic-div img {}
+
+.profile-tab-left-div .nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.profile-tab-left-div .nav-pills .my-profile-nav.active,
+.nav-pills .show > .my-profile-nav {
+    color: #fff;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(255, 0, 90), rgb(31, 203, 255));
+}
+
+.profile-tab-left-div .my-profile-nav {
+    position: relative;
+}
+
+.profile-tab-left-div .my-profile-nav:hover {
+    background-image: linear-gradient(to right, rgb(255, 0, 90), rgb(31, 203, 255));
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+
+.profile-tab-left-div .my-profile-nav:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    right: 35px;
+    transform: translate(0px, 0px);
+    opacity: 0;
+    transition: 0.35s ease-in-out;
+}
+
+.profile-tab-left-div .my-profile-nav:hover::after {
+    transform: translate(15px, 0px);
+    transition: 0.45s ease-in-out;
+    opacity: 1;
+}
+
+.my-profile-nav.active:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    right: 35px;
+    transform: translate(15px, 0px);
+    opacity: 1;
+}
+
+.profile-hist {
+    background-color: #bbbbbb61;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 15px;
+}
+
+.profile-hist h5 {
+    margin-bottom: 14px;
+}
+
+.profile-hist .dosis {
+    color: #ff005a;
+    margin-left: 4px;
+}
+
+.profile-hist p {
+    line-height: 18px;
+}
+
+.my-profile-right h2 {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #ff005a;
+    display: inline-block;
+}
+
+.my-profile-right {
+    min-height: 300px;
+}
+
+.my-profile-right label {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.my-profile-right .default-btn {
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
+.my-profile-right .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: inset 0px 0px 1px 0px #ff005a;
+}
+
+.my-profile-right .form-control:focus {
+    border-bottom: 1px solid #ff005a;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: 0.3s ease-in-out;
+}
+
+.my-profile-right .form-group {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 14px 15px;
+    background-color: #f1b3b378;
+}
+
+.profile-dashboard {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    padding: 13px 15px;
+}
+
+.profile-dashboard li {
+    position: relative;
+    padding-left: 25px;
+    color: #777777;
+    margin-bottom: 8px;
+}
+
+.profile-dashboard li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    position: absolute;
+    color: #ff005a;
+    font-size: 20px;
+    left: 0;
+}
+
+@media only screen and (max-width:767px) {
+    .my-profile-left {
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+
+/********************
+     my profile
+********************/
+
+
+/********************
+      Thank you
+********************/
+
+.thank-you-box {
+    border: 6px solid #000;
+    padding: 25px 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.thank-you-box:before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 35px;
+    left: 10%;
+    top: -6px;
+    background-color: #fff;
+    transform: skewX(45deg);
+    transition: 0.8s ease-in-out;
+}
+
+.thank-you-box:hover:before {
+    left: 82%;
+    transition: 0.8s ease-in-out;
+}
+
+.thank-you-box:after {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 35px;
+    left: 82%;
+    bottom: -6px;
+    background-color: #fff;
+    transform: skewX(45deg);
+    transition: 0.8s ease-in-out;
+}
+
+.thank-you-box:hover:after {
+    left: 10%;
+    transition: 0.8s ease-in-out;
+}
+
+.thank-you-box h2 {
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #ff005a;
+}
+
+.thank-you-box h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.thank-you-box .default-btn {
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.thank-you-box p {
+    color: #777777;
+}
+
+/********************
+      Thank you
+********************/
+
+
+/********************
+    Single Teacher
+********************/
+.single-teacher-wrap {
+    background-color: #f1b3b378;
+}
+
+.single-teacher-text {
+    border: 2px dashed #a01949;
+    padding: 10px 15px;
+    border-radius: 5px;
+    /* background-color: #e5e5e5; */
+    position: relative;
+}
+
+.single-teacher-text:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/clip.svg);
+    height: 50px;
+    width: 50px;
+    top: -11px;
+    right: 9px;
+    transform: rotate(-38deg);
+}
+
+.single-teacher-text h2 {
+    padding-bottom: 4px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 28px;
+    border-bottom: 3px solid #ff005a;
+}
+
+.single-teacher-text h4 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.single-teacher-text span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.single-teacher-text .teacher-icon-list li {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 3px;
+    overflow: hidden;
+}
+
+.teacher-icon-list i {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.teacher-icon-list a {
+    height: 34px;
+    width: 34px;
+    display: block;
+    color: #ff005a;
+}
+
+.single-teacher-text .teacher-icon-list li a:hover {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.single-teacher-text .icon-item-1:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #395599;
+}
+
+.single-teacher-text .icon-item-2:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #1c9ceb;
+}
+
+.single-teacher-text .icon-item-3:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #0271ae;
+}
+
+
+
+
+/********************
+    Single Teacher
 ********************/
