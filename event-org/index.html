@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="" />
+    <title>Event-Organisation</title>
+    <!-- google-font -->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Animated Css -->
+    <link rel="stylesheet" type="text/css" href="https://daneden.github.io/animate.css/animate.min.css">
+    <!-- custom -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!--  -->
+    <a id="button"></a>
+    <!--  -->
+
+    <div class="top-header w-100 float-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 py-2 text-left">
+                    <i class="fa fa-map-marker pr-1" aria-hidden="true"></i>San Francisco,CA,United States
+                </div>
+                <!--  -->
+                <div class="col-6 py-2 text-right">
+                    <div class="top_hd_link">
+                        <ul>
+                            <li><i class="fa fa-phone pr-1" aria-hidden="true"></i> +91-2525-8520</li>
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> event@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="w-100 float-left">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light py-lg-3">
+                <a class="navbar-brand" href="#"><img src="images/Asset-8.svg" width="125" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar-nav-custom ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fa fa-sign-in pr-2" aria-hidden="true"></i>Log In <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-registered pr-2" aria-hidden="true"></i>Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-user-circle-o pr-2" aria-hidden="true"></i>My Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary create_event_btn"><i class="fa fa-plus pr-2"></i>Create Event</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header-finish -->
+
+    <!-- banner-start -->
+    <section class="w-100 float-left banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="banner-text text-center">
+                        <h2 class="heading">Making the world better, one <br> event at a time</h2>
+                        <div class="Read_more">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-11 col-md-12">
+                    <div class="form-search">
+                        <div class="row justify-content-center">
+                            <div class="col-md-2 col-sm-9 pr-md-1 pl-md-3 pr-1 pl-1">
+                                <div class="form-group mb-md-0 mb-3">
+                                    <input type="text" class="form-control form-control-3" placeholder="Date">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-9 px-1">
+                                <div class="form-group mb-md-0 mb-3">
+                                    <input type="text" class="form-control form-control-3" placeholder="Number Of Guests">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-9 px-1">
+                                <div class="form-group mb-md-0 mb-3">
+                                    <select class="form-control form-control-3" id="exampleFormControlSelect1">
+                                        <option class="coug2">Time Slot</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-9 px-1">
+                                <div class="form-group mb-md-0 mb-3">
+                                    <select class="form-control form-control-3">
+                                        <option class="coug2">Event Type</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col-md-2 col-sm-6 pl-md-1 pr-md-3 pl-1 pr-1">
+                                <button type="submit" class="btn btn-primary search_panel w-100">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-finish -->
+
+    <!-- about-us -->
+    <section class="w-100 margin-50 float-left about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-10">
+                    <div class="about_bg_clr position-relative">
+                        <img src="images/about-1.jpg"  alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-2 col-lg-6 px-0 wow fadeInUp" data-wow-delay="0s">
+                    <div class="abt-details pt-lg-2 pt-5 ">
+                        <p class="coug2 ml-sm-0 ml-4 sort-heading">Welcome</p>
+                        <h3 class="heading2  ml-sm-0 ml-4 mt-2 mt-sm">ABOUT US</h3>
+                        <div class="row mx-0">
+                            <div class="col-12 mt-4">
+                                <div class="row">
+                                    <div class="col-3 abt-icon pr-0">
+                                        <img src="images/time.png" width="80" alt="">
+                                    </div>
+                                    <div class="col-9 save px-0">
+                                        <h3 class="heading4">SAVE YOUR TIME</h3>
+                                        <P class="coug2 grey mt-2">YEMP gathers on One platform: venues,animations and all services needed for organizing your event.</P>
+                                    </div>
+                                </div>
+                                <hr class="my-3">
+                            </div>
+                            <!--  -->
+                            <div class="col-12 mt-3">
+                                <div class="row">
+                                    <div class="col-3 abt-icon pr-0">
+                                        <img src="images/hands-and-gestures.png" width="80" alt="">
+                                    </div>
+                                    <div class="col-9 save px-0">
+                                        <h3 class="heading4">SAVE YOUR MONEY</h3>
+                                        <P class="coug2 grey mt-2">YEMP gathers on One platform: venues,animations and all services needed for organizing your event.</P>
+                                    </div>
+                                </div>
+                                <hr class="my-3">
+                            </div>
+                            <!--  -->
+                            <div class="col-12 mt-3">
+                                <div class="row">
+                                    <div class="col-3 abt-icon pr-0">
+                                        <img src="images/respect.png" width="80" alt="">
+                                    </div>
+                                    <div class="col-9 save px-0">
+                                        <h3 class="heading4">SIMPLY FOR LIFE</h3>
+                                        <P class="coug2 grey mt-2">YEMP gathers on One platform: venues,animations and all services needed for organizing your event.</P>
+                                    </div>
+                                </div>
+                                <hr class="my-3">
+                            </div>
+                            <!--  -->
+                        </div>
+                        <button type="button" class="btn btn-primary mt-4  ml-sm-0 ml-4 Read_more_btn2">Know More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-us -->
+
+    <!-- category -->
+    <section class="category margin-50 w-100 float-left">
+        <div class="container">
+            <div class="category-parts">
+                <div class="carousel-wrap">
+                    <div class="owl-carousel owl-carousel-1">
+                        <div class="item">
+                            <div class="tab-block wow fadeInDown" data-wow-delay="0s">
+                                <div class="icon">
+                                    <img src="images/business-and-finance.png" width="60" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>Buisness</h4>
+                                    <p>Marriott Marquis, San Francisco</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tab-block wow fadeInDown" data-wow-delay="0s">
+                                <div class="icon">
+                                    <img src="images/alcoholic.png" width="60" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>Food & Drinks</h4>
+                                    <p>Marriott Marquis, San Francisco</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tab-block wow fadeInDown" data-wow-delay="0s">
+                                <div class="icon">
+                                    <img src="images/communications.png" width="60" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>Conference</h4>
+                                    <p>Marriott Marquis, San Francisco</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tab-block wow fadeInDown" data-wow-delay="0s">
+                                <div class="icon">
+                                    <img src="images/sport.png" width="60" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>Sport</h4>
+                                    <p>Marriott Marquis, San Francisco</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tab-block wow fadeInDown" data-wow-delay="0s">
+                                <div class="icon">
+                                    <img src="images/communications.png" width="60" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>Conference</h4>
+                                    <p>Marriott Marquis, San Francisco</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tab-block wow fadeInDown" data-wow-delay="0s">
+                                <div class="icon">
+                                    <img src="images/music-and-multimedia.png" width="60" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>Concert</h4>
+                                    <p>Marriott Marquis, San Francisco</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="row">
+                    <div class="col-12 wow fadeInUp category-det text-center" data-wow-delay="1s">
+                        <h3>Get fresh insights into the world of tech and startups</h3>
+                        <p class="coug grey2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A enean massa. Cum sociis natoque penatibus et magnis dis parturient montes Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- category  -->
+
+    <!-- Events -->
+    <section class="events margin-50 w-100 float-left">
+        <div class="container px-lg-3 px-md-0">
+            <div class="event-heading text-center">
+                <h3 class="heading3">How Does It Work</h3>
+                <p class="coug grey2 mt-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A
+                    <br>
+                    enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <!--  -->
+            <div class="row">
+                <div class="col-md-4  mt-5">
+                    <div class="work-part wow fadeInUp text-center" data-wow-delay="0s">
+                        <div class="work-part-img">
+                            <img src="images/archive.png" width="100" alt="">
+                        </div>
+                        <div class="work-part-det mt-4">
+                            <h2 class="heading4">CREATE AN EVENT</h2>
+                            <P class="coug2 grey pt-2">Start by Naming Your Event,Select The Number Of Participants And Choose A Date</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="work-part wow fadeInUp text-center" data-wow-delay="0s">
+                        <div class="work-part-img">
+                            <img src="images/people.png" width="100" alt="">
+                        </div>
+                        <div class="work-part-det mt-4">
+                            <h2 class="heading4">CHOOSE YOUR SUPPLIERS</h2>
+                            <P class="coug2 grey pt-2">Start by Naming Your Event,Select The Number Of Participants And Choose A Date</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="work-part wow fadeInUp text-center" data-wow-delay="0s">
+                        <div class="work-part-img">
+                            <img src="images/payment-method.png" width="100" alt="">
+                        </div>
+                        <div class="work-part-det mt-4">
+                            <h2 class="heading4">CONFIRM AND PAY</h2>
+                            <P class="coug2 grey pt-2">Start by Naming Your Event,Select The Number Of Participants And Choose A Date</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- events-finish -->
+
+    <!-- partners-start -->
+    <section class="w-100 partners margin-50 float-left">
+        <div class="container">
+            <div class="partners-heading text-center">
+                <h3 class="heading3">Our Partners</h3>
+                <p class="coug grey2 mt-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A
+                    <br>
+                    enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8  mb-3">
+                    <div class="partners-img wow fadeInUp" data-wow-delay="0s">
+                        <div class="hover01 position-relative column">
+                            <div>
+                                <figure><img src="images/partners-1.jpg" alt=""></figure>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <h4>VENUES <br> AND RESTURANT</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="partners-img wow bounceInUp" data-wow-delay="0s">
+                        <div class="hover01 position-relative column">
+                            <div>
+                                <figure><img src="images/partners-2.jpg" alt=""></figure>
+                            </div>
+                        </div>
+                        <div class="caption caption2">
+                            <h4>AUDIO VISUAL<br> -AND SERVCES</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="partners-img wow bounceInUp" data-wow-delay="1s" data-wow-duration="2s">
+                        <div class="hover01 position-relative column">
+                            <div>
+                                <figure><img src="images/partners-3.jpg" alt=""></figure>
+                            </div>
+                        </div>
+                        <div class="caption caption2">
+                            <h4>CATERING <br> AND DRINKS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="partners-img wow bounceInUp" data-wow-delay="1s" data-wow-duration="2s">
+                        <div class="hover01 position-relative column">
+                            <div>
+                                <figure><img src="images/event-2.jpg" alt=""></figure>
+                            </div>
+                        </div>
+                        <div class="caption caption2">
+                            <h4>DIFFERENT PLACES <br> AND TRAVELS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="partners-img wow bounceInUp" data-wow-delay="1s" data-wow-duration="2s">
+                        <div class="hover01 position-relative column">
+                            <div>
+                                <figure><img src="images/partners-4.jpg" alt=""></figure>
+                            </div>
+                        </div>
+                        <div class="caption caption2">
+                            <h4>ANIMATION AND<br> TEAM BUILDING</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- partners-start -->
+
+    <!-- blog -->
+    <section class="blog w-100 float-left margin-50">
+        <div class="container px-lg-3 px-md-0">
+            <div class="blog-heading text-center">
+                <h3 class="heading3">Our Blog</h3>
+                <p class="coug grey2 mt-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. A
+                    <br>
+                    enean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+            </div>
+            <!--  -->
+            <div class="row ">
+                <div class="col-md-4 mt-5">
+                    <div class="blog-part">
+                        <div class="blog-pic">
+                            <img src="images/blog_1.webp" class="w-100" alt="">
+                        </div>
+                        <div class="blog-det text-center">
+                            <h2 class="heading4">We make beautiful days with older adults</h2>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-gift pr-2"></i>Buisness</a> </li>
+                                <li>|</li>
+                                <li><a href="#"><i class="fal fa-clock pr-2"></i>Jan 21, 2020</a></li>
+                            </ul>
+                            <p class="coug grey2">Aenean tincidunt dictum volutpat.pendisse potenti. Duis sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1st -->
+                <div class="col-md-4 mt-5">
+                    <div class="blog-part">
+                        <div class="blog-pic">
+                            <img src="images/blog_2.webp" class="w-100" alt="">
+                        </div>
+                        <div class="blog-det text-center">
+                            <h2 class="heading4">We make beautiful days with older adults</h2>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-gift pr-2"></i>Buisness</a> </li>
+                                <li>|</li>
+                                <li><a href="#"><i class="fal fa-clock pr-2"></i>Jan 21, 2020</a></li>
+                            </ul>
+                            <p class="coug grey2">Aenean tincidunt dictum volutpat.pendisse potenti. Duis sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd -->
+                <div class="col-md-4 mt-5">
+                    <div class="blog-part">
+                        <div class="blog-pic">
+                            <img src="images/blog_3.webp" class="w-100" alt="">
+                        </div>
+                        <div class="blog-det text-center">
+                            <h2 class="heading4">We make beautiful days with older adults</h2>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-gift pr-2"></i>Buisness</a> </li>
+                                <li>|</li>
+                                <li><a href="#"><i class="fal fa-clock pr-2"></i>Jan 21, 2020</a></li>
+                            </ul>
+                            <p class="coug grey2">Aenean tincidunt dictum volutpat.pendisse potenti. Duis sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd -->
+            </div>
+        </div>
+    </section>
+    <!-- blog -->
+
+    <!-- map-start -->
+    <section  class="w-100 map margin-adj float-left">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"  style="border:0; width: 100%; height: 600px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- map-finish -->
+
+    <div class="main-content w-100 float-left">
+
+        <section id="contact">
+            <div class="container px-lg-3 px-md-0">
+                <div class="row wow fadeInDown" data-wow-delay="0.3s">
+                    <div class="col-md-8 col-sm-12 contact-form">
+                        <div  id="contactForm">
+                            <div class="title-header">
+                                <h3 class="title-medium title-medium-1 text-lg-left text-center">Send Us A Message</h3>
+                            </div>
+                            <div class="row justify-content-start">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control2" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control2" placeholder="Last Name">
+                                    </div>
+
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control form-control2" id="exampleFormControlTextarea1" rows="3" placeholder="Messege"></textarea>
+                                    </div>
+
+                                </div>
+                                <div class="col-5">
+                                    <button type="button" class="btn btn-primary my-4 contact_btn">SEND</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 information">
+                        <div class="title-header">
+                            <h3 class="title-medium">Contact Information</h3>
+                        </div>
+                        <div class="contact-datails">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="info">
+                                <span class="detail">Marriott Marquis, San Francisco, CA<br> United States</span>
+                            </div>
+                        </div>
+                        <div class="contact-datails">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="info">
+                                <span class="detail">+123456789000</span>
+                            </div>
+                        </div>
+                        <div class="contact-datails">
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="info">
+                                <span class="detail"><a href="#" class="__cf_email__">Event2020@gmail.com</a></span>
+                            </div>
+                        </div>
+                        <div class="social text-center">
+                            <a class="social" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="social" href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            <a class="social" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="section w-100 float-left">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-3 mt-4">
+                        <img src="images/Asset-8.svg" width="100" alt="">
+                        <p>
+                            If you think you have the passion,
+                            attitude and capability to join us
+                            the next big software company
+                            s so that we can get the convers.
+                        </p>
+                    </div>
+                    <div class="col-md-3  mt-4">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h3>Learn More</h3>
+                        <ul>
+                            <li><a href="#">How it Works</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Log In</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h3>Quick Link</h3>
+                        <ul>
+                            <li><a href="#">Schedule</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <section id="copyright" class="w-100 float-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6 class="copyright-text text-center">
+                        CopyRight Reserved @rbajsol
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.mapit.min.js"></script>
+    <!-- Owl Carousel Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- wow -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+    <script>
+        $('.owl-carousel-1').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [
+                "<i class='fa fa-caret-left'></i>",
+                "<i class='fa fa-caret-right'></i>"
+            ],
+            autoplay: true,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                470: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+
+    </script>
+    
+    <script>
+        new WOW().init();
+
+    </script>
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 1) {
+                $('header').addClass("sticky");
+            } else {
+                $('header').removeClass("sticky");
+            }
+        });
+
+    </script>
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0
+            }, '300');
+        });
+
+    </script>
+</body>
+
+</html>
