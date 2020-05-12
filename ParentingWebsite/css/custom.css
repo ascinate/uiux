@@ -90,11 +90,21 @@ button:focus {
 }
 
 .pad-tb {
-    padding: 120px 0;
+    padding: 110px 0;
 }
 
 .pad-tb2 {
-    padding: 90px 0;
+    padding: 80px 0;
+}
+
+@media only screen and (max-width:575px) {
+    .pad-tb {
+        padding: 50px 0;
+    }
+
+    .pad-tb2 {
+        padding: 40px 0;
+    }
 }
 
 .heading-section h2 {
@@ -153,17 +163,27 @@ button:focus {
 /*pre-header*/
 .pre-header {
     background-color: #000;
-    padding: 15px 0;
+    padding: 11px 0;
     border-bottom: 2px solid #ff005a;
 }
 
 .pre-header a {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
     padding: 0 15px;
+    font-family: 'Dosis', sans-serif;
 }
 
-.upper-header-anchor {
+.pre-header i {
+    padding-right: 3px;
+}
+
+.sidebarleft-1 {
+    border-left: 1px solid #ff005a;
+}
+
+.sidebarleft-2 {
     border-left: 1px solid #ff005a;
 }
 
@@ -174,6 +194,12 @@ button:focus {
 
 
 /*header-search-lg*/
+.dropdown-item {
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+
 header #toggle-search {
     -webkit-transition: all 0.6s ease;
     -moz-transition: all 0.6s ease;
@@ -269,8 +295,8 @@ header #toggle-search2 {
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
     font-weight: 700;
+    font-size: 16px;
     font-family: 'Dosis', sans-serif;
-
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -292,7 +318,7 @@ header #toggle-search2 {
     background-color: #fff;
     transition: all 0.4s ease;
     position: relative;
-    padding: 12px 0;
+    padding: 8px 0;
     z-index: 3;
 }
 
@@ -383,15 +409,16 @@ header #toggle-search2 {
 
 .banner {
     padding: 200px 0 180px 0;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    filter: brightness(0.95);
 }
 
 @media only screen and (max-width:767px) {
     .banner {
-        padding: 100px 0;
+        padding: 90px 0;
     }
 
     .banner h3 {
@@ -428,8 +455,9 @@ header #toggle-search2 {
 
 .banner h1 {
     font-size: 57px;
-    line-height: 67px;
+    line-height: 73px;
     font-weight: 700;
+    color: #212529 !important;
 }
 
 .default-banner h1 {
@@ -441,13 +469,14 @@ header #toggle-search2 {
 @media only screen and (max-width:575px) {
     .banner h1 {
         font-size: 36px;
-        line-height: 44px;
+        line-height: 46px;
     }
 }
 
 .banner p {
     font-size: 16px;
     line-height: 26px;
+    color: #000;
 }
 
 /*banner-end*/
@@ -521,18 +550,18 @@ header #toggle-search2 {
 }
 
 .parallax-banner-wrap .heading-section h2 span {
-    font-size: 55px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 67px;
     font-weight: 500;
     color: #fff;
     text-transform: capitalize;
 }
 
 .parallax-banner-wrap .heading-section h2 {
-    font-size: 55px;
-    line-height: 65px;
+    font-size: 42px;
+    line-height: 61px;
     font-weight: 500;
-    color: #5820bc;
+    color: #fff;
 }
 
 /*
@@ -729,7 +758,7 @@ label {
 
 /*faq-section-start*/
 
-main {
+.main {
     padding: 16px;
     width: 100%;
     margin: 0 auto;
@@ -737,7 +766,7 @@ main {
 }
 
 @media only screen and (max-width:767px) {
-    main {
+    .main {
         padding: 0;
     }
 }
@@ -934,6 +963,12 @@ main {
     border-radius: 25px;
     padding: 12px 15px;
 }
+
+/*
+.contact-us-wrap iframe {
+    width: 100%;
+}
+*/
 
 /*contact-us-end*/
 
@@ -1759,10 +1794,8 @@ main {
     position: relative;
 }
 
-.single-teacher-text:after {
-    content: "";
+.paper-clip {
     position: absolute;
-    background-image: url(../images/clip.svg);
     height: 50px;
     width: 50px;
     top: -11px;

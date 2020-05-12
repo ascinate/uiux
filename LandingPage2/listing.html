@@ -31,91 +31,25 @@
     <!-- **** Header Area start **** -->
 
     <!-- START NAVBAR -->
-    <nav class="navbar navbar-expand-md float-panel default-header" data-top="0" data-scroll="200">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <i class="fa fa-bars"></i>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="show-me nav-category">
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/seminar.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/help.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/event.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/man.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/sale%20(1).png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/respect.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/loan.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/sale.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li class="no-border">
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/car.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="ml-auto navbar-nav">
-                <li><a href="#"><i class="fa fa-star star"></i></a></li>
-                <li class="post-ad"> <a href="#">
-                        <i class="fa fa-plus-circle"></i>post a free ad</a></li>
-                <!--                <li class="hide-me"><a href="#"></a></li>-->
-                <li class="post-ad"><a href="#">Login</a></li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="ml-auto navbar-nav">
+                    <li><a href="#"><i class="fa fa-star star"></i></a></li>
+                    <li class="post-ad"> <a href="#">
+                            <i class="fa fa-plus-circle"></i>post a free ad</a></li>
+                    <li class="post-ad"><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
     <!-- END NAVBAR -->
 
     <!-- START FEATURED -->
@@ -217,7 +151,7 @@
     <section class="list-grid-wrap py-sm-3 py-1">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-12 pb-lg-0 pb-4">
+                <div class="col-lg-3 col-md-12 pb-lg-0 pb-4 d-md-block d-none">
                     <div class="row justify-content-center">
                         <div class="col-lg-12 col-md-4 mb-4 col-sm-7 col-8">
                             <div class="listing-category">
@@ -289,195 +223,335 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9">
 
-                    <div class="list-grid-box">
 
-                        <div class="list-grid-header">
-                            <div class="row">
-                                <div class="col-6  my-auto text-left">
-                                    <div class="pre-description-heading pb-2">
-                                        <ul>
-                                            <li><a href="#" class="right-angle">Home</a></li>
-                                            <li><a href="#" class="right-angle">Delhi</a></li>
-                                            <li><a href="#">Professional equipments</a></li>
+                <!--    category-bottom-start-->
+
+                <div class="col-12 d-md-none d-block">
+                    <div class="default-bottom-category-wrap bottom-category-wrap">
+                        <div id="mySidebar" class="sidebar d-md-none d-block">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></a>
+                            <a href="#" class="listing-category-heading-btn">Refine Category</a>
+                            <ul class="listing-left-list mb-4">
+                                <li><a href="#"><b>ALL CATEGORIES</b></a></li>
+                                <hr>
+                                <li><a href="#" class="pb-1"><b>Animals & Pets</b></a></li>
+                                <hr>
+                                <li><a href="#">Cats and Accessories</a></li>
+                                <hr>
+                                <li><a href="#">Birds and Accessories</a></li>
+                                <hr>
+                                <li><a href="#">Dogs and Accessories</a></li>
+                                <hr>
+                                <li><a href="#">Fish and Accessories</a></li>
+                                <hr>
+                                <li><a href="#">Horses and Accessories</a></li>
+                                <hr>
+                                <li><a href="#">Pet Supplies</a></li>
+                                <hr>
+                                <li><a href="#" class="pb-1"><b>Baby & Kids</b></a></li>
+                                <hr>
+                                <li><a href="#">Baby & Kids Clothes</a></li>
+                                <hr>
+                                <li><a href="#">Buggies & Pushchairs</a></li>
+                            </ul>
+
+                            <a href="#" class="listing-category-heading-btn">Popular Locations</a>
+                            <ul class="listing-left-list mb-4">
+                                <li><a href="#">India</a></li>
+                                <hr>
+                                <li><a href="#">Australia</a></li>
+                                <hr>
+                                <li><a href="#">China</a></li>
+                                <hr>
+                                <li><a href="#">Brazil</a></li>
+                                <hr>
+                                <li><a href="#">Colommbia</a></li>
+                                <hr>
+                                <li><a href="#">Sri Lanka</a></li>
+                                <hr>
+                                <li><a href="#">Italy</a></li>
+                                <hr>
+                                <li><a href="#">United States</a></li>
+                                <hr>
+                                <li><a href="#">Iran</a></li>
+                                <hr>
+                                <li><a href="#">Arab</a></li>
+                            </ul>
+
+                            <a href="#" class="listing-category-heading-btn">Popular States</a>
+                            <ul class="listing-left-list">
+                                <li><a href="#">India</a></li>
+                                <hr>
+                                <li><a href="#">Australia</a></li>
+                                <hr>
+                                <li><a href="#">China</a></li>
+                                <hr>
+                                <li><a href="#">Brazil</a></li>
+                                <hr>
+                                <li><a href="#">Colommbia</a></li>
+                                <hr>
+                                <li><a href="#">Sri Lanka</a></li>
+                                <hr>
+                                <li><a href="#">Italy</a></li>
+                                <hr>
+                                <li><a href="#">United States</a></li>
+                                <hr>
+                                <li><a href="#">Iran</a></li>
+                                <hr>
+                                <li><a href="#">Arab</a></li>
+                            </ul>
+                        </div>
+
+                        <div id="main" class="d-md-none d-block text-center">
+                            <button class="openbtn" onclick="openNav()">More Categories</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    category-bottom-end-->
+
+                <div class="col-lg-9 col-sm-12 col-10">
+                    <div class="my-ads-section">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <div class="row justify-content-end">
+                                    <div class="col-md-6 col-sm-8 d-sm-inline-block d-none my-auto text-left">
+                                        <div class="pre-description-heading pb-2">
+                                            <ul>
+                                                <li><a href="#" class="right-angle">Home</a></li>
+                                                <li><a href="#" class="right-angle">Delhi</a></li>
+                                                <li><a href="#">Professional equipments</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-4 text-right">
+                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active ads-list-right-border" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa fa-bars" aria-hidden="true"></i> <span>List</span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa fa-th" aria-hidden="true"></i> <span>Grid</span></a>
+                                            </li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <div class="listing-icons">
-                                        <a href="#" class="grid-tab-icon">
-                                            <i class="[ icon  icon--grid ]  [ fa  fa-th ]  [ icon ]  active"><span>Grid</span></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="[ icon  icon--list ]  [ fa  fa-reorder ]  [ icon ]"><span>List</span></i>
-                                        </a>
+                                    <div class="col-md-12">
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="my-ad-grid mb-3">
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-4 col-6 my-ad-pic pr-0">
+                                                                    <a href="#"><img src="images/bed.webp" alt=""></a>
+                                                                    <div class="my-ad-feature">
+                                                                        <span><i class="fa fa-star" aria-hidden="true"></i> Featured</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-8 col-6 my-ad-description px-0">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="listing-list-li">
+                                                                                <ul>
+                                                                                    <li class="d-sm-inline-block d-none"><i class="fa fa-tag" aria-hidden="true"></i> Home-Office Furniture</li>
+                                                                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 23-March-20</li>
+                                                                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> (Bangalore)</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="list-texts">
+                                                                                <a href="#">
+                                                                                    <h5 class="d-sm-block d-none">Teak Wood Dewan Bed For Sale</h5>
+                                                                                </a>
+                                                                                <h5 class="d-sm-none d-block">Bed For Sale...</h5>
+                                                                                <h4>$3000</h4>
+                                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="my-ad-grid mb-3">
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-4 col-6 my-ad-pic pr-0">
+                                                                    <a href="#"><img src="images/bed.webp" alt=""></a>
+                                                                    <div class="my-ad-premium">
+                                                                        <span><i class="fa fa-star" aria-hidden="true"></i> Premium</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-8 col-6 my-ad-description px-0">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="listing-list-li">
+                                                                                <ul>
+                                                                                    <li class="d-sm-inline-block d-none"><i class="fa fa-tag" aria-hidden="true"></i> Home-Office Furniture</li>
+                                                                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 23-March-20</li>
+                                                                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> (Bangalore)</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="list-texts">
+                                                                                <a href="#">
+                                                                                    <h5 class="d-sm-block d-none">Teak Wood Dewan Bed For Sale</h5>
+                                                                                </a>
+                                                                                <h5 class="d-sm-none d-block">Bed For Sale...</h5>
+                                                                                <h4>$3000</h4>
+                                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="my-ad-grid mb-3">
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-4 col-6 my-ad-pic pr-0">
+                                                                    <a href="#"><img src="images/bed.webp" alt=""></a>
+                                                                    <div class="my-ad-premium">
+                                                                        <span><i class="fa fa-star" aria-hidden="true"></i> Premium</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-8 col-6 my-ad-description px-0">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="listing-list-li">
+                                                                                <ul>
+                                                                                    <li class="d-sm-inline-block d-none"><i class="fa fa-tag" aria-hidden="true"></i> Home-Office Furniture</li>
+                                                                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 23-March-20</li>
+                                                                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> (Bangalore)</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="list-texts">
+                                                                                <a href="#">
+                                                                                    <h5 class="d-sm-block d-none">Teak Wood Dewan Bed For Sale</h5>
+                                                                                </a>
+                                                                                <h5 class="d-sm-none d-block">Bed For Sale...</h5>
+                                                                                <h4>$3000</h4>
+                                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                                <div class="row justify-content-center">
+                                                    <div class="col-md-4 col-sm-8 mb-md-0 mb-4 col-10">
+                                                        <div class="my-ad-grid-2">
+                                                            <div class="row">
+                                                                <div class="col-md-12 my-ad-pic">
+                                                                    <a href="#"><img src="images/bed.webp" alt=""></a>
+                                                                    <div class="my-ad-feature">
+                                                                        <span><i class="fa fa-star" aria-hidden="true"></i> Featured</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12 text-center">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="grid-texts">
+                                                                                <span><i class="fa fa-tag" aria-hidden="true"></i> Home-Office Furniture</span>
+                                                                                <a href="#">
+                                                                                    <h5>Teak Wood Dewan Bed For Sale...</h5>
+                                                                                </a>
+                                                                                <h4>$3000</h4>
+                                                                                <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                                                <div class="grid-list-li">
+                                                                                    <ul>
+                                                                                        <li><i class="fa fa-calendar" aria-hidden="true"></i> 23-March-20</li>
+                                                                                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> (Bangalore)</li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-4 col-sm-8 mb-md-0 mb-4 col-10">
+                                                        <div class="my-ad-grid-2">
+                                                            <div class="row">
+                                                                <div class="col-md-12 my-ad-pic">
+                                                                    <a href="#"><img src="images/bed.webp" alt=""></a>
+                                                                    <div class="my-ad-premium">
+                                                                        <span><i class="fa fa-star" aria-hidden="true"></i> Premium</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12 text-center">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="grid-texts">
+                                                                                <span><i class="fa fa-tag" aria-hidden="true"></i> Home-Office Furniture</span>
+                                                                                <a href="#">
+                                                                                    <h5>Teak Wood Dewan Bed For Sale...</h5>
+                                                                                </a>
+                                                                                <h4>$3000</h4>
+                                                                                <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                                                <div class="grid-list-li">
+                                                                                    <ul>
+                                                                                        <li><i class="fa fa-calendar" aria-hidden="true"></i> 23-March-20</li>
+                                                                                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> (Bangalore)</li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-4 col-sm-8 mb-md-0 mb-4 col-10">
+                                                        <div class="my-ad-grid-2">
+                                                            <div class="row">
+                                                                <div class="col-md-12 my-ad-pic">
+                                                                    <a href="#"><img src="images/bed.webp" alt=""></a>
+                                                                    <div class="my-ad-premium">
+                                                                        <span><i class="fa fa-star" aria-hidden="true"></i> Premium</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12 text-center">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div class="grid-texts">
+                                                                                <span><i class="fa fa-tag" aria-hidden="true"></i> Home-Office Furniture</span>
+                                                                                <a href="#">
+                                                                                    <h5>Teak Wood Dewan Bed For Sale...</h5>
+                                                                                </a>
+                                                                                <h4>$3000</h4>
+                                                                                <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                                                <div class="grid-list-li">
+                                                                                    <ul>
+                                                                                        <li><i class="fa fa-calendar" aria-hidden="true"></i> 23-March-20</li>
+                                                                                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> (Bangalore)</li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="products grid group">
-
-                            <div class="product">
-                                <div class="product__inner">
-
-                                    <div class="product__image">
-                                        <img src="images/list-grid-1.webp" alt="">
-                                    </div>
-
-                                    <div class="product__details">
-
-                                        <h6 class="product__name">Commercial Fitness Equipment</h6>
-                                        <a href="#" class="list-anchor small">Professional. Delhi</a>
-
-                                        <h4 class="product__price">Rs 35,00,000</h4>
-
-                                        <!--                                        <section class="product__short-description-grid pb-2">Grand slam fitness is in the process of acquiring the spot of No. 1.</section>-->
-
-
-                                        <p class="product__short-description-list">If you are looking for a one-stop solution for all your gym equipment related to doubts, then this is the place for you. This brand with its networks in the public and private sector is ruling its industry.</p>
-                                        <div class="list-pad-b">
-                                            <a href="#" class="list-anchor small"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Buy & sell professional equipment, Delhi</a>
-                                        </div>
-                                    </div><!-- /product__details -->
-
-                                </div>
-                            </div><!-- /product -->
-
-                            <div class="product">
-                                <div class="product__inner">
-
-                                    <div class="product__image">
-                                        <img src="images/list-grid-2.webp" alt="">
-                                    </div>
-
-                                    <div class="product__details">
-
-                                        <h6 class="product__name">Commercial Fitness Equipment</h6>
-                                        <a href="#" class="list-anchor small">Professional. Delhi</a>
-
-                                        <h4 class="product__price">Rs 35,00,000</h4>
-
-                                        <!--                                        <section class="product__short-description-grid pb-2">Grand slam fitness is in the process of acquiring the spot of No. 1.</section>-->
-
-
-                                        <p class="product__short-description-list">If you are looking for a one-stop solution for all your gym equipment related to doubts, then this is the place for you. This brand with its networks in the public and private sector is ruling its industry.</p>
-                                        <div class="list-pad-b">
-                                            <a href="#" class="list-anchor small"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Buy & sell professional equipment, Delhi</a>
-                                        </div>
-                                    </div><!-- /product__details -->
-
-                                </div>
-                            </div><!-- /product -->
-
-                            <div class="product">
-                                <div class="product__inner">
-
-                                    <div class="product__image">
-                                        <img src="images/list-grid-3.webp" alt="">
-                                    </div>
-
-                                    <div class="product__details">
-
-                                        <h6 class="product__name">Commercial Fitness Equipment</h6>
-                                        <a href="#" class="list-anchor small">Professional. Delhi</a>
-
-                                        <h4 class="product__price">Rs 35,00,000</h4>
-
-                                        <!--                                        <section class="product__short-description-grid pb-2">Grand slam fitness is in the process of acquiring the spot of No. 1.</section>-->
-
-
-                                        <p class="product__short-description-list">If you are looking for a one-stop solution for all your gym equipment related to doubts, then this is the place for you. This brand with its networks in the public and private sector is ruling its industry.</p>
-                                        <div class="list-pad-b">
-                                            <a href="#" class="list-anchor small"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Buy & sell professional equipment, Delhi</a>
-                                        </div>
-                                    </div><!-- /product__details -->
-
-                                </div>
-                            </div><!-- /product -->
-
-                            <div class="product">
-                                <div class="product__inner">
-
-                                    <div class="product__image">
-                                        <img src="images/list-grid-1.webp" alt="">
-                                    </div>
-
-                                    <div class="product__details">
-
-                                        <h6 class="product__name">Commercial Fitness Equipment</h6>
-                                        <a href="#" class="list-anchor small">Professional. Delhi</a>
-
-                                        <h4 class="product__price">Rs 35,00,000</h4>
-
-                                        <!--                                        <section class="product__short-description-grid pb-2">Grand slam fitness is in the process of acquiring the spot of No. 1.</section>-->
-
-
-                                        <p class="product__short-description-list">If you are looking for a one-stop solution for all your gym equipment related to doubts, then this is the place for you. This brand with its networks in the public and private sector is ruling its industry.</p>
-                                        <div class="list-pad-b">
-                                            <a href="#" class="list-anchor small"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Buy & sell professional equipment, Delhi</a>
-                                        </div>
-                                    </div><!-- /product__details -->
-
-                                </div>
-                            </div><!-- /product -->
-
-                            <div class="product">
-                                <div class="product__inner">
-
-                                    <div class="product__image">
-                                        <img src="images/list-grid-2.webp" alt="">
-                                    </div>
-
-                                    <div class="product__details">
-
-                                        <h6 class="product__name">Commercial Fitness Equipment</h6>
-                                        <a href="#" class="list-anchor small">Professional. Delhi</a>
-
-                                        <h4 class="product__price">Rs 35,00,000</h4>
-
-                                        <!--                                        <section class="product__short-description-grid pb-2">Grand slam fitness is in the process of acquiring the spot of No. 1.</section>-->
-
-
-                                        <p class="product__short-description-list">If you are looking for a one-stop solution for all your gym equipment related to doubts, then this is the place for you. This brand with its networks in the public and private sector is ruling its industry.</p>
-                                        <div class="list-pad-b">
-                                            <a href="#" class="list-anchor small"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Buy & sell professional equipment, Delhi</a>
-                                        </div>
-                                    </div><!-- /product__details -->
-
-                                </div>
-                            </div><!-- /product -->
-
-                            <div class="product">
-                                <div class="product__inner">
-
-                                    <div class="product__image">
-                                        <img src="images/list-grid-3.webp" alt="">
-                                    </div>
-
-                                    <div class="product__details">
-
-                                        <h6 class="product__name">Commercial Fitness Equipment</h6>
-                                        <a href="#" class="list-anchor small">Professional. Delhi</a>
-
-                                        <h4 class="product__price">Rs 35,00,000</h4>
-
-                                        <!--                                        <section class="product__short-description-grid pb-2">Grand slam fitness is in the process of acquiring the spot of No. 1.</section>-->
-
-
-                                        <p class="product__short-description-list">If you are looking for a one-stop solution for all your gym equipment related to doubts, then this is the place for you. This brand with its networks in the public and private sector is ruling its industry.</p>
-                                        <div class="list-pad-b">
-                                            <a href="#" class="list-anchor small"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Buy & sell professional equipment, Delhi</a>
-                                        </div>
-                                    </div><!-- /product__details -->
-
-                                </div>
-                            </div><!-- /product -->
-
-                        </div><!-- /products -->
-
-                    </div><!-- /wrapper -->
+                    </div>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -989,7 +1063,7 @@
         newproducts.owlCarousel({
             autoplay: true,
             nav: false,
-            autoplayHoverPause: true,
+            autoplayHoverPause: false,
             smartSpeed: 350,
             dots: true,
             margin: 2,
@@ -1006,7 +1080,7 @@
                     loop: true
                 },
                 575: {
-                    items: 2,
+                    items: 1,
                     nav: false,
                     loop: true
                 },
@@ -1025,6 +1099,31 @@
                     nav: true,
                     loop: true
                 }
+            }
+        });
+
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "290px";
+            document.getElementById("main");
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+
+    <!--    sticky-header-script-->
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 1) {
+                $('.header').addClass("sticky");
+            } else {
+                $('.header').removeClass("sticky");
             }
         });
 

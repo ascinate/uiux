@@ -9,8 +9,6 @@
     <!-- Title -->
     <title>Directory</title>
 
-    <!-- Stylesheet -->
-
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -31,16 +29,19 @@
     <!-- **** Header Area start **** -->
 
     <!-- START NAVBAR -->
-    <nav class="navbar navbar-expand-md float-panel" data-top="0" data-scroll="200">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+    <!--    <nav class="navbar navbar-expand-md float-panel" data-top="0" data-scroll="200">-->
+    <!-- Brand -->
+    <!--        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>-->
 
-        <!-- Toggler/collapsibe Button -->
+    <!-- Toggler/collapsibe Button -->
+    <!--
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <i class="fa fa-bars"></i>
         </button>
+-->
 
-        <!-- Navbar links -->
+    <!-- Navbar links -->
+    <!--
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="show-me nav-category">
                 <li>
@@ -111,12 +112,34 @@
                 <li><a href="#"><i class="fa fa-star star"></i></a></li>
                 <li class="post-ad"> <a href="#">
                         <i class="fa fa-plus-circle"></i>post a free ad</a></li>
-                <!--                <li class="hide-me"><a href="#"></a></li>-->
+                <li class="hide-me"><a href="#"></a></li>
                 <li class="post-ad"><a href="#">Login</a></li>
             </ul>
         </div>
-    </nav>
+        </nav>
+-->
     <!-- END NAVBAR -->
+
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="ml-auto navbar-nav">
+                    <li><a href="#"><i class="fa fa-star star"></i></a></li>
+                    <li class="post-ad"> <a href="#">
+                            <i class="fa fa-plus-circle"></i>post a free ad</a></li>
+                    <li class="post-ad"><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
 
     <!-- **** Header Area End **** -->
     <section class="banner" style="background-image: url(images/banner-2.webp)">
@@ -194,7 +217,7 @@
 
 
             <!-- **** category Area Start **** -->
-            <div class="category">
+            <div class="category d-lg-block d-none">
                 <div class="row justify-content-center">
                     <div class="col-md-10">
                         <div class="row justify-content-center">
@@ -283,6 +306,36 @@
         </div>
     </section>
 
+    <!--    category-bottom-start-->
+
+    <section class="bottom-category-wrap mt-4">
+        <div id="mySidebar" class="sidebar d-lg-none d-block">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <li><a href="#" class="d-lg-none d-block">Classes</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">Community</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">Events</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">For Sale</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">Jobs</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">Personals</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">Real Estate</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">Service</a></li>
+            <hr>
+            <li><a href="#" class="d-lg-none d-block">Vehicles</a></li>
+        </div>
+
+        <div id="main" class="d-lg-none d-block text-center">
+            <button class="openbtn" onclick="openNav()">Select Your Category</button>
+        </div>
+    </section>
+
+    <!--    category-bottom-end-->
 
 
     <!-- START FEATURED -->
@@ -624,22 +677,23 @@
     <section class="more-of-our-categories-wrap py-4">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-12 col-9 mb-3">
+                <div class="col-md-12 mb-2">
                     <div class="more-of-our-categories-heading">
                         <h5>MORE OF OUR CATEGORIES</h5>
                     </div>
                 </div>
-                <div class="col-md-3 py-md-0 col-8 py-3 more-list-underline">
+                <div class="col-md-3 py-md-0 col-6 py-3 more-list-underline">
                     <div class="more-list">
                         <h6><a href="#">PETS</a></h6>
                         <ul>
                             <li><a href="#">Pets for Sale</a></li>
                             <li><a href="#">Pets Adoption</a></li>
+                            <li><a href="#">Pets Adoption</a></li>
                             <li><a href="#">Pet Services - Accessories</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 py-md-0 col-8 py-3 more-list-underline">
+                <div class="col-md-3 py-md-0 col-6 py-3 more-list-underline">
                     <div class="more-list">
                         <h6><a href="#">CLASSES</a></h6>
                         <ul>
@@ -647,22 +701,21 @@
                             <li><a href="#">IT & Computer course</a></li>
                             <li><a href="#">Language & Humanities</a></li>
                             <li><a href="#">Professional Courses</a></li>
-                            <li><a href="#">Sport - Fitness - Yoga</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 py-md-0 col-8 py-3 more-list-underline">
+                <div class="col-md-3 py-md-0 col-6 py-3 more-list-underline">
                     <div class="more-list">
                         <h6><a href="#">DOMESTIC HELP</a></h6>
                         <ul>
                             <li><a href="#">Nanny - Babysitters</a></li>
-                            <li><a href="#">Housekeeping - Cleaning - Security</a></li>
+                            <li><a href="#">Housekeeping - Cleaning</a></li>
                             <li><a href="#">Local Events</a></li>
                             <li><a href="#">Exhibitions</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 py-md-0 col-8 pt-3">
+                <div class="col-md-3 py-md-0 col-6 pt-3">
                     <div class="more-list">
                         <h6><a href="#">COMMUNITY</a></h6>
                         <ul>
@@ -826,7 +879,7 @@
     <script src="js/default-assets/active.js"></script>
 
     <!--  -->
-    <script src="https://escortsandbodyrubs.com/classified/style/assets2/js/float-panel.js"></script>
+    <!--    <script src="https://escortsandbodyrubs.com/classified/style/assets2/js/float-panel.js"></script>-->
     <script type="text/javascript" src="js/owlcarousel.min.js"></script>
     <script type="text/javascript">
         < script >
@@ -1137,6 +1190,31 @@
                     nav: true,
                     loop: true
                 }
+            }
+        });
+
+    </script>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main");
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+
+    <!--    sticky-header-script-->
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 1) {
+                $('.header').addClass("sticky");
+            } else {
+                $('.header').removeClass("sticky");
             }
         });
 

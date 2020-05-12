@@ -31,91 +31,25 @@
     <!-- **** Header Area start **** -->
 
     <!-- START NAVBAR -->
-    <nav class="navbar navbar-expand-md float-panel" data-top="0" data-scroll="200">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <i class="fa fa-bars"></i>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="show-me nav-category">
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/seminar.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/help.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/event.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/man.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/sale%20(1).png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/respect.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/loan.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/sale.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-                <li class="no-border">
-                    <div class="circle bg-1" title="Classes">
-                        <a href="">
-                            <img class="icons_img" src="images/lcons/car.png" alt="" style="height: 29px;margin-top: -5px;margin-left: -3px;">
-                        </a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="ml-auto navbar-nav">
-                <li><a href="#"><i class="fa fa-star star"></i></a></li>
-                <li class="post-ad"> <a href="#">
-                        <i class="fa fa-plus-circle"></i>post a free ad</a></li>
-                <!--                <li class="hide-me"><a href="#"></a></li>-->
-                <li class="post-ad"><a href="#">Login</a></li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="ml-auto navbar-nav">
+                    <li><a href="#"><i class="fa fa-star star"></i></a></li>
+                    <li class="post-ad"> <a href="#">
+                            <i class="fa fa-plus-circle"></i>post a free ad</a></li>
+                    <li class="post-ad"><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
     <!-- END NAVBAR -->
 
     <!--    banner-start-->
@@ -132,81 +66,74 @@
     </section>
     <!--    banner-start-->
 
-
     <!--    login/register-start-->
     <section class="login-register-wrap py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 log-in-wrap">
-                    <h3>Log In</h3>
-                    <form>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group form-new">
-                                    <input type="text" id="name" class="form-control" required>
-                                    <label class="form-control-placeholder" for="name">Username</label>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-9">
+                    <div class="log-in-wrap">
+                        <!--                        <h5 class="log-in-heading">Log In<span> / Sign Up</span></h5>-->
+                        <h4 class="mb-4">Log In</h4>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <button type="submit" class="btn btn-primary">LOG IN</button>
+                                        </div>
+                                        <div class="col-sm-8 pt-sm-0 pt-4 text-sm-right text-center my-auto">
+                                            <span>Or login with </span>
+                                            <a href="#" class="login-social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#" class="login-social-icon google-icon"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group form-new password-section">
-                                    <input type="password" id="password" class="form-control" required>
-                                    <label class="form-control-placeholder" for="password">Password</label>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-6">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">stay logged in</label>
-                                </div>
-                            </div>
-                            <div class="col-md-7 col-6 text-md-left text-right">
-                                <h6 class="check-text">Can't access your account</h6>
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 pt-md-0 pt-4">
-                    <h3>First time on Cracker Classifieds</h3>
-                    <div class="go-register-wrap">
-                        <div class="grid-register-1">
-                            <i class="fa fa-pencil"></i>
-                            <span>Manage and edit ads easily</span>
-                        </div>
-                        <div class="grid-register-1">
-                            <i class="fa fa-picture-o"></i>
-                            <span>Put your ads in the carousel easily</span>
-                        </div>
-                        <div class="grid-register-1">
-                            <i class="fa fa-star-o"></i>
-                            <span class="access">Access your favorite ads anytime, anywhere</span>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Register</button>
+                        </form>
                     </div>
                 </div>
-                <div class="col-md-12 text-center google-wrap pt-4">
-                    <h2 class="mb-3">Or</h2>
-                    <a class="google-button" href="#">Sign up With <i class="fa fa-google" aria-hidden="true"></i></a>
-                    <h5 class="mt-4"><a href="#" class="google-modal-anchor" data-toggle="modal" data-target="#exampleModal">what does this mean?</a></h5>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Log in with Google
-                                    </h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                <div class="col-lg-6 col-md-8 col-sm-9 pt-lg-0 pt-5">
+                    <h4>First time on Cracker Classifieds</h4>
+                    <div class="go-register-wrap">
+                        <div class="row justify-content-sm-start justify-content-center">
+                            <div class="col-12">
+                                <div class="grid-register-1">
+                                    <i class="fa fa-pencil"></i>
+                                    <span>Manage and edit ads easily</span>
                                 </div>
-                                <div class="modal-body">
-                                    <p>Getting started on CrackerClassifieds has never been easier. To skip the email confirmation, log in with your Google account.
-                                        <br>
-                                        CrackerClassifieds does not post on any of your personal accounts without your permission Your personal information and activity on CrackerClassifieds is not shared on Google, or any other third party.</p>
+                            </div>
+                            <div class="col-12">
+                                <div class="grid-register-1">
+                                    <i class="fa fa-picture-o"></i>
+                                    <span>Put your ads in the carousel easily</span>
                                 </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="grid-register-1">
+                                    <i class="fa fa-star-o"></i>
+                                    <span class="access">Access your favorite ads anytime, anywhere</span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="grid-register-1">
+                                    <i class="fa fa-picture-o"></i>
+                                    <span>Put your ads in the carousel easily</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-6 col-8 text-center">
+                                <button type="submit" class="btn btn-primary">REGISTER HERE</button>
                             </div>
                         </div>
                     </div>
@@ -604,50 +531,26 @@
     </script>
 
 
-    <script type="text/javascript">
-        /*====================================
-  New Products Owl Carousel
-  ======================================*/
-        var newproducts = $("#new-products");
-        newproducts.owlCarousel({
-            autoplay: true,
-            nav: false,
-            autoplayHoverPause: true,
-            smartSpeed: 350,
-            dots: true,
-            margin: 2,
-            loop: true,
-            navText: [
-                '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-            ],
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false,
-                    loop: true
-                },
-                575: {
-                    items: 2,
-                    nav: false,
-                    loop: true
-                },
-                767: {
-                    items: 2,
-                    nav: true,
-                    loop: true
-                },
-                991: {
-                    items: 3,
-                    nav: true,
-                    loop: true
-                },
-                1024: {
-                    items: 4,
-                    nav: true,
-                    loop: true
-                }
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main");
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+
+    <!--    sticky-header-script-->
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 1) {
+                $('.header').addClass("sticky");
+            } else {
+                $('.header').removeClass("sticky");
             }
         });
 
