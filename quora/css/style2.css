@@ -125,7 +125,62 @@ button:focus {
 
 
 
+/***************************
 
+   account-settings-end
+
+***************************/
+
+
+
+
+/*
+#sidebar-list-1 {
+    display: none;
+}
+
+#sidebar-list-2 {
+    display: none;
+    background: rgba(187, 187, 187, 0.17);
+    margin: 10px;
+}
+
+#sidebar-list-3 {
+    display: none;
+    background: rgba(187, 187, 187, 0.17);
+    margin: 10px;
+}
+
+
+#sidebar-list-4 {
+    display: none;
+    background: #bbbbbb20;
+    height: 130px;
+    overflow: auto;
+}
+
+#sidebar-list-5 {
+    display: none;
+    background: #bbbbbb35;
+    margin: 5px 2px;
+    height: 240px;
+    overflow: auto;
+}
+
+#sidebar-list-6 {
+    display: none;
+    background: rgba(187, 187, 187, 0.17);
+    margin: 8px;
+    height: 170px;
+    overflow: auto;
+}*/
+
+
+/***************************
+
+   account-settings-end
+
+***************************/
 
 
 
@@ -202,12 +257,12 @@ button:focus {
 
 .modal-spl-1 label {
     display: inline-block;
-    padding-right: 8px;
+    padding-right: 0px;
 }
 
 .modal-spl-1 .custom-btn .multiselect {
     display: inline-block;
-    width: 250px !important;
+    width: 258px !important;
 }
 
 
@@ -222,12 +277,12 @@ button:focus {
 
 .label-problem-div label {
     display: inline-block;
-    padding-right: 8px;
+    padding-right: 0px;
 }
 
 .label-problem-div select {
     display: inline-block;
-    width: 235px;
+    width: 258px;
 }
 
 .modal-blue-bg .btn-group-vertical {
@@ -301,6 +356,10 @@ button:focus {
     color: #666;
 }
 
+.modal-blue-bg label.checkbox {
+    font-size: 10px;
+}
+
 .multiselect.dropdown-toggle::after {
     right: 5px;
     top: 14px;
@@ -311,10 +370,10 @@ button:focus {
     resize: none;
 }
 
-.navbar-brand {
-     margin-right: 0.1rem !important;   
+.navbar-brand
+{
+	margin-right: 0.3rem !important;
 }
-
 .navbar-brand img {
     width: 55px;
 }
@@ -423,6 +482,7 @@ button:focus {
     top: 0;
     right: 0;
     background-color: #c7dfbb;
+    /*    background-color: #fff;*/
 }
 
 .host-section-left-list-ul:hover .host-list-active {
@@ -1087,7 +1147,8 @@ button:focus {
 }
 
 .sign-up-email-form button {
-    width: 100%;
+    width: 120px;
+    ;
 }
 
 /***************************
@@ -1105,6 +1166,9 @@ button:focus {
 
 .account-profile-form {
     padding: 20px 25px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px #0000002b;
 }
 
 .account-profile-form label {
@@ -1213,9 +1277,6 @@ button:focus {
   security-settings-end
 
 ***************************/
-
-
-
 
 
 
@@ -1404,15 +1465,6 @@ button:focus {
 }
 
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width:991px) {
 
     .act-set-from-control {
@@ -1522,21 +1574,285 @@ button:focus {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***************************
 
    account-settings-end
 
 ***************************/
+
+
+/************************************
+
+   account-supporter-settings-start
+
+************************************/
+
+.supporter-settings-wrap {
+    border: 1px solid #bbb;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px #0000002b;
+    padding: 26px 15px;
+}
+
+.supporter-spl-dropdown .multiselect {
+    width: 100% !important;
+    text-align: left;
+}
+
+.supporter-spl-dropdown .multiselect-container li {
+    padding: 0;
+}
+
+.supporter-spl-dropdown .custom-btn {
+    width: 100%;
+}
+
+.supporter-page-list-1 ul {
+    padding-left: 6px;
+}
+
+.supporter-page-list-2 ul li b {
+    color: #4cb549;
+}
+
+.supporter-page-list-2 ul li i {
+    color: #4cb549;
+}
+
+.supporter-page-list-3 ul {
+    padding-left: 20px;
+}
+
+.supporter-page-list-3 ul li {
+    color: #4cb549;
+}
+
+.supporter-page-list-3 ul li b {
+    color: #666;
+}
+
+.supporter-page-list-3 ul li i {
+    color: #666;
+}
+
+.supporter-page-list-4 ul li span {
+    font-weight: 700;
+}
+
+
+
+.supporter-settings-form-box .form-control {
+    border-radius: 0;
+    color: #666;
+    font-size: 12px;
+}
+
+.supporter-settings-form-box .form-control::placeholder {
+    color: #666;
+}
+
+.supporter-settings-form-box label {
+    margin-bottom: 0;
+    padding: 3px 0;
+}
+
+.supporter-settings-form-box .form-control:hover {
+    border: 1px solid #37a000 !important;
+    transition: all 0.40s ease;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+.supporter-settings-form-box .form-control:focus {
+    border-radius: 0px;
+    border: 1px solid #37a000 !important;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+
+
+/*
+.ui-timepicker-wrapper {
+    width: 100px !important;
+}
+
+#timepicker1,
+#timepicker2 {
+    width: 100%;
+    height: 38px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#timepicker1:focus,
+#timepicker2:hover {
+    border: 1px solid #37a000 !important;
+    transition: all 0.40s ease;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+#timepicker1:focus,
+#timepicker2:focus {
+    border-radius: 0px;
+    border: 1px solid #37a000 !important;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+.ui-timepicker-list li {
+    padding: 3px 0 3px 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #666;
+    list-style: none;
+    margin: 0;
+}
+*/
+.spl-drop-time option {
+    padding: 5px 0 !important;
+}
+
+.supporter-spl-dropdown span.msg,
+.supporter-spl-dropdown span.choose {
+    color: #666;
+    padding: 5px 0 10px;
+    display: inherit
+}
+
+/*Styling Selectbox*/
+.supporter-spl-dropdown .dropdown {
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 12px;
+    color: #666;
+    height: 100%;
+    text-align: left;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.supporter-spl-dropdown .dropdown:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.supporter-spl-dropdown .dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+
+.supporter-spl-dropdown .dropdown:hover {
+    border-radius: 0px;
+    border: 1px solid #37a000 !important;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+.supporter-spl-dropdown .dropdown:active {
+    border-radius: 0px;
+    border: 1px solid #37a000 !important;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+.supporter-spl-dropdown .dropdown:focus {
+    border-radius: 0px;
+    border: 1px solid #37a000 !important;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+.supporter-spl-dropdown .dropdown.active:hover,
+.supporter-spl-dropdown .dropdown.active {
+    border-radius: 0px;
+    border: 1px solid #37a000 !important;
+    box-shadow: inset 0px 0px 6px -1px #666666ab;
+}
+
+.supporter-spl-dropdown .dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    font-size: 12px;
+    color: #666;
+    margin-top: 1px;
+    border-radius: 0 1px 5px 5px;
+    overflow: hidden;
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 9;
+}
+
+.supporter-spl-dropdown .dropdown .dropdown-menu li {
+    padding: 5px 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.supporter-spl-dropdown .dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+
+.supporter-spl-dropdown .dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+
+.supporter-spl-dropdown .dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+
+
+.supporter-spl-dropdown hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid #66666650;
+}
+
+
+/************************************
+
+   account-supporter-settings-end
+
+************************************/
+
+
+
+
+/************************************
+
+    fixes-and-problems-wrap-start
+
+************************************/
+
+.fixes-and-problems-wrap {
+    border: 1px solid #bbb;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px #0000002b;
+    padding: 26px 20px;
+}
+
+.fixes-and-problems-wrap a {
+    display: block;
+}
+
+/************************************
+
+    fixes-and-problems-wrap-end
+
+************************************/

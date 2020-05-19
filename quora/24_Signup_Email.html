@@ -19,6 +19,45 @@
     <link rel="stylesheet" href="css/header.css" type="text/css">
     <link rel="stylesheet" href="css/style2.css" type="text/css">
 
+    <style type="">
+
+        #sidebar-list-1 {
+                display: none;
+            }
+            #sidebar-list-2 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+            #sidebar-list-3 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+
+
+            #sidebar-list-4 {
+                display: none;
+                background: #bbbbbb20;
+                height: 130px;
+                overflow: auto;
+            }
+            #sidebar-list-5 {
+                display: none;
+                background: #bbbbbb35;
+                margin: 5px 2px;
+                height: 240px;
+                overflow: auto;
+            }
+            #sidebar-list-6 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 8px;
+                height: 170px;
+                overflow: auto;
+            }
+    </style>
+
 
     <title>24_Signup_Email</title>
 </head>
@@ -30,7 +69,7 @@
     <header class="header w-100">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="images/logo-new.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -49,54 +88,77 @@
                             </div>
                         </li>
                         <li class="dropdown dropdown1 fixes nav-item">
-                            <a class="dropdown-toggle nav-link border-right-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fixes</a>
-                            <ul class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
-                                <li><a href="#">Repairs & Security</a></li>
-                                <li><a href="#">Optimization & Customization</a></li>
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Essential Apps</a>
-                                    <ul class="dropdown-menu sub-menu3" aria-labelledby="navbarDropdown">
-                                        <li><a href="#">Communication Tools</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown3</a>
-                                            <ul class="dropdown-menu sub-menu3" aria-labelledby="navbarDropdown">
-                                                <li><a href="#">Action</a></li>
-                                                <li><a href="#">Another action</a></li>
-                                                <li><a href="#">Something else here</a></li>
+                            <a class="dropdown-toggle nav-link border-right-1 fix_id" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fixes</a>
+                            <ul class="dropdown-menu dropdown-menu1 dropdown-menu12" aria-labelledby="navbarDropdown">
+                                <li><a id="sidebar-dropdown-li-5" class="dropdown-li dropdown-toggle" href="#">Repairs & security</a></li>
+                                <div id="sidebar-list-5" class="fixes-drop">
+                                    <ul>
+                                        <li><a id="sidebar-dropdown-li-6" class="dropdown-li dropdown-toggle" href="#">Operating System Issues</a></li>
+                                        <div id="sidebar-list-6" class="fixes-drop">
+                                            <ul>
+                                                <li><a href="#">Viruses</a></li>
+                                                <li><a href="#">Spyware</a></li>
+                                                <li><a href="#">Ransomware</a></li>
+                                                <li><a href="#">Phishing</a></li>
+                                                <li><a href="#">Spam</a></li>
+                                                <li><a href="#">Key Logging</a></li>
+                                                <li><a href="#">Firewall</a></li>
+                                                <li><a href="#">Identity Theft</a></li>
                                             </ul>
-                                        </li>
+                                        </div>
+                                        <li><a href="#">Device Management & Drivers</a></li>
+                                        <li><a href="#">Disk Management</a></li>
+                                        <li><a href="#">Computer Management</a></li>
+                                        <li><a href="#">Command Line</a></li>
+                                        <li><a href="#">User Control & Rights</a></li>
+                                        <li><a href="#">Network Issues</a></li>
+                                        <li><a href="#">Connection Issues</a></li>
+                                        <li><a href="#">File Explorer</a></li>
+                                        <li><a href="#">Start Menu & Taskbar</a></li>
+                                        <li><a href="#">Users & Accounts</a></li>
+                                        <li><a href="#">Printing</a></li>
+                                        <li><a href="#">Output</a></li>
+                                        <li><a href="#">Input</a></li>
+                                        <li><a href="#">Miscellaneous</a></li>
                                     </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Special Apps</a>
-                                    <ul class="dropdown-menu sub-menu1" aria-labelledby="navbarDropdown">
-                                        <li><a href="#">Communication Tools</a></li>
+                                </div>
+                                <li><a href="#">Optimization & Customization</a></li>
+                                <li><a href="#">Apps & Features</a></li>
+                                <li><a id="sidebar-dropdown-li-3" class="dropdown-li dropdown-toggle" href="#">Essential Apps</a></li>
+                                <div id="sidebar-list-3" class="fixes-drop">
+                                    <ul>
+                                        <li><a href="#">Steam</a></li>
+                                        <li><a href="#">Emulators</a></li>
+                                        <li><a href="#">RetroArch</a></li>
+                                        <li><a href="#">Dolphin</a></li>
+                                    </ul>
+                                </div>
+                                <li><a id="sidebar-dropdown-li-2" class="dropdown-li dropdown-toggle" href="#">Special Apps</a></li>
+                                <div id="sidebar-list-2" class="fixes-drop">
+                                    <ul>
+
                                         <li><a href="#">Producitivity Tools</a></li>
                                         <li><a href="#">Password Management</a></li>
                                         <li><a href="#">Photo</a></li>
                                         <li><a href="#">Audio & Music</a></li>
-                                        <li><a href="#"> Video</a></li>
-                                        <li><a href="#"> CD/DVD/Blue-Ray</a></li>
-                                        <li><a href="#"> Animation & 3D</a></li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gaming</a>
-                                            <ul class="dropdown-menu sub-menu2" aria-labelledby="navbarDropdown">
-                                                <li><a href="#"> Game Store</a></li>
+                                        <li><a href="#">CD/DVD/Blue-Ray</a></li>
+                                        <li><a id="sidebar-dropdown-li-4" class="dropdown-li dropdown-toggle" href="#">Gaming</a></li>
+                                        <div id="sidebar-list-4">
+                                            <ul>
+                                                <li><a href="#">Game Stores</a></li>
                                                 <li><a href="#">Xbox</a></li>
                                                 <li><a href="#">Steam</a></li>
                                                 <li><a href="#">Emulators</a></li>
                                                 <li><a href="#">RetroArch</a></li>
-                                                <li><a href="#">LaunchBox</a></li>
                                             </ul>
-                                        </li>
+                                        </div>
                                         <li><a href="#">Virtualization</a></li>
                                         <li><a href="#">Miscellaneous</a></li>
                                     </ul>
-                                </li>
+                                </div>
                                 <li><a href="#">Files, Data & Content </a></li>
                                 <li><a href="#">Office Management & Security </a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item ">
@@ -107,12 +169,13 @@
                                 <input class="form-control border header-search position-relative" type="search" placeholder="SEARCH..." aria-label="Search">
                                 <button class="btn btn-outline-success border header-search-btn my-sm-0" type="submit"><i class="fa fa-search"></i></button>
                         <li class="nav-item header-dropdown po dropdown dropdown12">
-                            <a class="nav-link header_dropdown_content_link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link header_dropdown_content_link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             </a>
-                            <div class="dropdown-menu header-dropdown-content" aria-labelledby="navbarDropdown" style="width: 340px;">
-                                <a class="dropdown-item" href="#">SUPPORTER</a>
+                            <div class="dropdown-menu  header-dropdown-content" aria-labelledby="navbarDropdown" style="width: 340px;">
                                 <a class="dropdown-item" href="#">FIXES</a>
                                 <a class="dropdown-item" href="#">PROBLEM</a>
+                                <a class="dropdown-item" href="#">SUPPORTER</a>
+
                             </div>
                         </li>
                         </form>
@@ -127,20 +190,18 @@
                             <a class="nav-link Profile-pad active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-user-circle-o" style="font-size: 25px;"></i>
                             </a>
-                            <div class="dropdown-menu dropdown-menu1 profile-dropdown" aria-labelledby="navbarDropdown">
-                                <div class="row justify-content-end px-2 py-3">
-                                    <div class="col-12 mb-3">
-                                        <div class="pro-drop-header">
-                                            <p>Login to continue using Supporter!</p>
-                                        </div>
-                                        <hr class="my-1">
-                                    </div>
+                            <div class="dropdown-menu profile-dropdown" aria-labelledby="navbarDropdown">
+                                <div class="pro-drop-header">
+                                    <p>Login to continue using Supporter!</p>
+                                </div>
+                                <div class="row justify-content-end px-2 mt-3 pb-3">
+
                                     <div class="col-4 header-drop-form-head">
                                         <p class="pt-2">User Name</p>
                                     </div>
                                     <div class="col-8 pl-0">
                                         <div class="form-group">
-                                            <input type="text" class="form-control header-drop-form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                            <input type="text" class="form-control  header-drop-form" id="username" aria-describedby="emailHelp" placeholder="" autofocus>
                                         </div>
                                     </div>
                                     <div class="col-4 header-drop-form-head">
@@ -148,35 +209,35 @@
                                     </div>
                                     <div class="col-8 pl-0">
                                         <div class="form-group">
-                                            <input type="Password" class="form-control header-drop-form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                            <input type="Password" class="form-control header-drop-form" id="password" aria-describedby="emailHelp" placeholder="">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <button type="button" class="btn btn-primary w-100 default-btn">Log In</button>
                                     </div>
                                     <div class="col-12">
-                                        <div class="header-drop-links">
+                                        <div class="header-drop-links-first">
                                             <p>Or Login With</p>
                                             <hr class="my-2">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br>Facebook</a></li>
-                                                <li><a href="#"><i class="fa fa-google"> </i><br>Google</a></li>
-                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br>Microsoft</a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br> Linkedin</a></li>
+                                            <ul class="text-center">
+                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br><span><span>Facebook</span></a></li>
+                                                <li><a href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
                                             </ul>
                                             <h6 class="password-change pt-3"><a href="#">Lost Password </a>or<a href="#"> User Name</a></h6>
                                         </div>
                                     </div>
                                     <div class="col-12 mt-4">
-                                        <div class="header-drop-links-2">
+                                        <div class="header-drop-links-second">
                                             <p>Or Sign Up With</p>
                                             <hr class="my-2">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><br>E-mail</a></li>
-                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br>Facebook</a></li>
-                                                <li><a href="#"><i class="fa fa-google"> </i><br>Google</a></li>
-                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br>Microsoft</a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br> Linkedin</a></li>
+                                            <ul class="text-center">
+                                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><br><span>E-mail</span></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br> <span>Linkedin</span></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -332,8 +393,8 @@
                                                 </div>
                                             </div>
 
-                                            <div class="row justify-content-center">
-                                                <div class="col-md-3 col-sm-4 col-6 mt-3">
+                                            <div class="row justify-content-lg-end justify-content-center">
+                                                <div class="col-md-8 col-sm-4 col-6 mt-3">
                                                     <button type="submit" class="btn btn-primary default-btn">Sign Up</button>
                                                 </div>
                                             </div>
@@ -367,9 +428,8 @@
 
 
 
-
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade exampleModalask" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header ask-modal modal-header-1">
@@ -389,19 +449,6 @@
                         <form class="checkbox_listing">
                             <div class="form-group">
                                 <div class="row mb-3">
-                                    <div class="col-md-5 my-auto">
-                                        <label class="label-problem" for="exampleFormControlSelect1">Get a problem fixed</label>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>by Other Users</option>
-                                            <option>by Other Users</option>
-                                            <option>by Other Users</option>
-                                            <option>by Other Users</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
                                     <div class="col-md-12 mb-2">
                                         <label for="exampleFormControlTextarea1">Type below what troubleshooting problem you need fixed.</label>
                                     </div>
@@ -410,11 +457,9 @@
                                     </div>
                                 </div>
 
-                                <div id="spl-check-box" class="row mb-3">
-                                    <div class="col-md-4 my-auto">
-                                        <label for="exampleFormControlTextarea100">Choose Category</label>
-                                    </div>
-                                    <div class="col-md-8">
+                                <div class="row mb-3">
+                                    <div class="col-md-12 modal-spl-1">
+                                        <label class="" for="exampleFormControlTextarea100">Choose Category</label>
                                         <select id="exampleFormControlTextarea100" type="text" class="multiselect" multiple="multiple" role="multiselect">
                                             <option value="0" selected="selected">Choose at least one</option>
                                             <option value="1">Repairs & Security</option>
@@ -426,16 +471,27 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="row mb-4">
+                                <div class="row mb-3">
+                                    <div class="col-md-12 label-problem-div text-right">
+                                        <label class="label-problem" for="exampleFormControlSelect1">Get it fixed</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>by Other Users</option>
+                                            <option>by Other Users</option>
+                                            <option>by Other Users</option>
+                                            <option>by Other Users</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group-1">
-                                            <input type="checkbox" id="modal-check-1">
+                                            <input type="checkbox" id="modal-check-1" checked>
                                             <label for="modal-check-1">Post it at our Website</label>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group-1">
-                                            <input type="checkbox" id="modal-check-2">
+                                            <input type="checkbox" id="modal-check-2" checked>
                                             <label for="modal-check-2">Find Users who can <span>Fix it right now</span></label>
                                         </div>
                                     </div>
@@ -444,7 +500,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="text-center blue-bg-under my-3">
+                <div class="text-center blue-bg-under">
                     <button type="button" class="btn btn-primary default-btn" data-dismiss="modal">Ask</button>
                 </div>
             </div>
@@ -501,6 +557,68 @@
         })(jQuery)
 
     </script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $("#sidebar-dropdown-li-1").click(function() {
+                $(".fixes-drop").hide();
+                $("#sidebar-list-1").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#sidebar-dropdown-li-2").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-5").hide();
+                $("#sidebar-list-2").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#sidebar-dropdown-li-3").click(function() {
+                // $("#sidebar-dropdown-li-2").toggle();
+                $("#sidebar-list-2").hide();
+                $("#sidebar-list-5").hide();
+                $("#sidebar-list-3").toggle();
+            });
+            // ///////////////////////////////////////////////////////
+            $(".fix_id").hover(function() {
+                // $("#sidebar-dropdown-li-2").toggle();
+                $("#sidebar-list-2").hide();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-5").hide();
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#sidebar-dropdown-li-4").click(function() {
+                $("#sidebar-list-4").toggle();
+            });
+            //////////////////////
+            $("#sidebar-dropdown-li-5").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-2").hide();
+                $("#sidebar-list-5").toggle();
+            });
+            /////////////////////////////
+            $("#sidebar-dropdown-li-6").click(function() {
+                $("#sidebar-list-6").toggle();
+            });
+        });
+
+    </script>
+
+
 
     <script>
         var telInput = $("#phone"),
