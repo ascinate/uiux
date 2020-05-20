@@ -6,7 +6,7 @@
     padding: 9px 7px;
     clear: both;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 12px;
     color: #666;
     text-align: inherit;
     white-space: nowrap;
@@ -55,16 +55,16 @@ header {
 
 .navbar-light .navbar-nav .nav-link {
     color: #37a000;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
-    padding: 22px 15px;
+    padding: 22px 13px;
     height: 69px;
     box-shadow: inset -3px 0px 7px -3px #bbbbbbad;
     text-transform: uppercase !important;
 }
 
 .supporter-shadow {
-    box-shadow: inset 3px 0px 7px -3px #bbbbbbad !important; 
+    box-shadow: inset 3px 0px 7px -3px #bbbbbbad !important;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -94,8 +94,8 @@ header {
 
 .header-dropdown-content a:hover {
     padding: 10px 5px !important;
-    background-color: #f9f9f9!important;
-    border-left: 5px solid #37a000!important;
+    background-color: #f9f9f9 !important;
+    border-left: 5px solid #37a000 !important;
 }
 
 .header-dropdown-content a {
@@ -112,12 +112,12 @@ header {
 }
 
 .dropdown-menu12 li:hover {
-     border-left: 5px solid #37a000!important;
-     transition: 0.30s ease-in-out;
+    border-left: 5px solid #37a000 !important;
+    transition: 0.30s ease-in-out;
 }
 
 .dropdown-menu12 li a:hover {
-     border-left: 0px solid #37a000!important;
+    border-left: 0px solid #37a000 !important;
 }
 
 
@@ -142,8 +142,8 @@ header {
 }
 
 .dropdown-menu1 a:hover {
-    background-color: #f9f9f9!important;
-    border-left: 5px solid #37a000!important;
+    background-color: #f9f9f9 !important;
+    border-left: 5px solid #37a000 !important;
 }
 
 .header-search:hover {
@@ -201,7 +201,7 @@ header {
     transition: 0.30s ease-in-out;
 }
 
-.dropdown-menu li a{
+.dropdown-menu li a {
     cursor: pointer;
 }
 
@@ -264,11 +264,60 @@ header {
 
 
 
+/*
 .header-drop-links-first ul li a:hover {
     border: none !important;
     color: #37a000;
     transition: 0.30s ease-in-out;
 }
+
+*/
+
+.header-drop-links-first ul li a.spl-facebook:hover {
+    border: none !important;
+    color: #4064ad;
+    transition: 0.30s ease-in-out;
+}
+
+
+.header-drop-links-first ul li a.spl-google:hover {
+    border: none !important;
+    color: #e44034;
+    transition: 0.30s ease-in-out;
+}
+
+.header-drop-links-first ul li a.spl-windows:hover {
+    border: none !important;
+    color: #0174d1;
+    transition: 0.30s ease-in-out;
+}
+
+.header-drop-links-first ul li a.spl-linkedin:hover {
+    border: none !important;
+    color: #0070ac;
+    transition: 0.30s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .header-drop-links-first ul li span {
     font-size: 10px !important;
@@ -281,7 +330,7 @@ header {
 } */
 
 .header-drop-links-first a :hover {
-    border: none!important;
+    border: none !important;
 }
 
 .header-drop-links-second ul li {
@@ -302,12 +351,60 @@ header {
     transition: 0.30s ease-in-out;
 }
 
+.header-drop-links-second ul li a.spl-facebook:hover {
+    border: none !important;
+    color: #4064ad;
+    transition: 0.30s ease-in-out;
+}
+
+
+.header-drop-links-second ul li a.spl-google:hover {
+    border: none !important;
+    color: #e44034;
+    transition: 0.30s ease-in-out;
+}
+
+.header-drop-links-second ul li a.spl-windows:hover {
+    border: none !important;
+    color: #0174d1;
+    transition: 0.30s ease-in-out;
+}
+
+.header-drop-links-second ul li a.spl-linkedin:hover {
+    border: none !important;
+    color: #0070ac;
+    transition: 0.30s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header-drop-links-second ul li span {
     font-size: 10px !important;
 }
 
 
-.header-drop-links p, {
+.header-drop-links p,
+    {
     font-size: 13px;
 }
 
@@ -317,7 +414,7 @@ header {
     padding: 19px 15px !important;
 }
 
-.navbar-light .navbar-nav .Profile-pad:hover{
+.navbar-light .navbar-nav .Profile-pad:hover {
     color: #fff !important;
     transition: 0.40s ease-in-out;
 }
@@ -330,7 +427,8 @@ header {
 .dropdown-menu {
     top: 90%;
     left: 0px;
-    box-shadow: 3px 4px 6px -4px #00000063;-
+    box-shadow: 3px 4px 6px -4px #00000063;
+    -
 }
 
 .profile-dropdown {
@@ -353,7 +451,7 @@ header {
 
 .dropdown-menu li a {
     color: #666;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     display: block;
     padding: 9px 5px;
@@ -374,7 +472,7 @@ header {
 }
 
 .sub-menu2 {
-    min-width: 13rem; 
+    min-width: 13rem;
 }
 
 #sidebar-list-4::-webkit-scrollbar {
@@ -458,7 +556,7 @@ header {
 .header_dropdown_content_link {
     position: absolute;
     padding: 0 !important;
-    box-shadow: none!important;
+    box-shadow: none !important;
     top: -7px;
     left: -62px;
     height: 0px !important;
@@ -486,7 +584,7 @@ header {
 /* to hide datalist arrow in webkit */
 
 input::-webkit-calendar-picker-indicator {
-  display: none;
+    display: none;
 }
 
 

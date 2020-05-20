@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     display: inline-block;
+    border-radius: 0;
 }
 
 .intl-tel-input * {
@@ -26,6 +27,7 @@
     margin-bottom: 0 !important;
     padding-right: 36px;
     margin-right: 0;
+    border-radius: 0;
 }
 
 .intl-tel-input .flag-container {
@@ -1718,17 +1720,19 @@ select {
     color: #BBB;
 }
 
+/*
 button {
     color: #FFF;
-    background-color: #428BCA;
+    background-color: #fff;
     border: 1px solid #357EBD;
 }
 
 button:hover {
-    background-color: #3276B1;
+    background-color: #fff;
     border-color: #285E8E;
     cursor: pointer;
 }
+*/
 
 #result {
     margin-bottom: 100px;

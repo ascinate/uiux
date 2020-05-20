@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>1_Host_Account_Overview-new</title>
+
     <!--    font-awesome-css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -57,8 +59,6 @@
             }
     </style>
 
-
-    <title>1_Host_Account_Overview-new</title>
 </head>
 
 <body>
@@ -172,8 +172,8 @@
                             </a>
                             <div class="dropdown-menu  header-dropdown-content" aria-labelledby="navbarDropdown" style="width: 340px;">
                                 <a class="dropdown-item" href="#">FIXES</a>
-                                <a class="dropdown-item" href="#">PROBLEM</a>
-                                <a class="dropdown-item" href="#">SUPPORTER</a>
+                                <a class="dropdown-item" href="#">PROBLEMS</a>
+                                <a class="dropdown-item" href="#">SUPPORTERS</a>
 
                             </div>
                         </li>
@@ -181,9 +181,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link border-right-1 supporter-shadow border-left-1" href="#">User's Podium</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link border-right-1 bg-green-1" href="#" data-toggle="modal" data-target="#exampleModal">Ask</a>
                         </li>
                         <li class="nav-item dropdown dropdown1">
                             <a class="nav-link Profile-pad active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -219,10 +216,10 @@
                                             <p>Or Login With</p>
                                             <hr class="my-2">
                                             <ul class="text-center">
-                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br><span><span>Facebook</span></a></li>
-                                                <li><a href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
-                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
                                             </ul>
                                             <h6 class="password-change pt-3"><a href="#">Lost Password </a>or<a href="#"> User Name</a></h6>
                                         </div>
@@ -233,14 +230,18 @@
                                             <hr class="my-2">
                                             <ul class="text-center">
                                                 <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><br><span>E-mail</span></a></li>
-                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
-                                                <li><a href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
-                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br> <span>Linkedin</span></a></li>
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link border-right-1 bg-green-1" href="#" data-toggle="modal" data-target="#exampleModal">Ask Question</a>
                         </li>
                     </ul>
 
@@ -557,7 +558,7 @@
             <div class="modal-content">
                 <div class="modal-header ask-modal modal-header-1">
                     <img src="images/logo-head.png" alt="">
-                    <h5 class="modal-title" id="exampleModalLabel">Remote Support Host</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Ask Question</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -711,6 +712,8 @@
                 $("#sidebar-list-2").hide();
                 $("#sidebar-list-3").hide();
                 $("#sidebar-list-5").hide();
+                $("#sidebar-list-4").hide();
+                $("#sidebar-list-6").hide();
             });
         });
 

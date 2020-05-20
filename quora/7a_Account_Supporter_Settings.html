@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>7a_Account_Supporter_Settings</title>
+
     <!--    font-awesome-css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -34,6 +36,8 @@
                 background: rgba(187, 187, 187, 0.17);
                 margin: 10px;
             }
+
+
             #sidebar-list-4 {
                 display: none;
                 background: #bbbbbb20;
@@ -42,11 +46,20 @@
             }
             #sidebar-list-5 {
                 display: none;
+                background: #bbbbbb35;
+                margin: 5px 2px;
+                height: 240px;
+                overflow: auto;
+            }
+            #sidebar-list-6 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 8px;
+                height: 170px;
+                overflow: auto;
             }
     </style>
 
-
-    <title>7a_Account_Supporter_Settings</title>
 </head>
 
 <body>
@@ -75,9 +88,40 @@
                             </div>
                         </li>
                         <li class="dropdown dropdown1 fixes nav-item">
-                            <a class="dropdown-toggle nav-link border-right-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fixes</a>
+                            <a class="dropdown-toggle nav-link border-right-1 fix_id" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fixes</a>
                             <ul class="dropdown-menu dropdown-menu1 dropdown-menu12" aria-labelledby="navbarDropdown">
-                                <li><a href="#">Repairs & Security</a></li>
+                                <li><a id="sidebar-dropdown-li-5" class="dropdown-li dropdown-toggle" href="#">Repairs & security</a></li>
+                                <div id="sidebar-list-5" class="fixes-drop">
+                                    <ul>
+                                        <li><a id="sidebar-dropdown-li-6" class="dropdown-li dropdown-toggle" href="#">Operating System Issues</a></li>
+                                        <div id="sidebar-list-6" class="fixes-drop">
+                                            <ul>
+                                                <li><a href="#">Viruses</a></li>
+                                                <li><a href="#">Spyware</a></li>
+                                                <li><a href="#">Ransomware</a></li>
+                                                <li><a href="#">Phishing</a></li>
+                                                <li><a href="#">Spam</a></li>
+                                                <li><a href="#">Key Logging</a></li>
+                                                <li><a href="#">Firewall</a></li>
+                                                <li><a href="#">Identity Theft</a></li>
+                                            </ul>
+                                        </div>
+                                        <li><a href="#">Device Management & Drivers</a></li>
+                                        <li><a href="#">Disk Management</a></li>
+                                        <li><a href="#">Computer Management</a></li>
+                                        <li><a href="#">Command Line</a></li>
+                                        <li><a href="#">User Control & Rights</a></li>
+                                        <li><a href="#">Network Issues</a></li>
+                                        <li><a href="#">Connection Issues</a></li>
+                                        <li><a href="#">File Explorer</a></li>
+                                        <li><a href="#">Start Menu & Taskbar</a></li>
+                                        <li><a href="#">Users & Accounts</a></li>
+                                        <li><a href="#">Printing</a></li>
+                                        <li><a href="#">Output</a></li>
+                                        <li><a href="#">Input</a></li>
+                                        <li><a href="#">Miscellaneous</a></li>
+                                    </ul>
+                                </div>
                                 <li><a href="#">Optimization & Customization</a></li>
                                 <li><a href="#">Apps & Features</a></li>
                                 <li><a id="sidebar-dropdown-li-3" class="dropdown-li dropdown-toggle" href="#">Essential Apps</a></li>
@@ -125,12 +169,12 @@
                                 <input class="form-control border header-search position-relative" type="search" placeholder="SEARCH..." aria-label="Search">
                                 <button class="btn btn-outline-success border header-search-btn my-sm-0" type="submit"><i class="fa fa-search"></i></button>
                         <li class="nav-item header-dropdown po dropdown dropdown12">
-                            <a class="nav-link header_dropdown_content_link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link header_dropdown_content_link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             </a>
                             <div class="dropdown-menu  header-dropdown-content" aria-labelledby="navbarDropdown" style="width: 340px;">
                                 <a class="dropdown-item" href="#">FIXES</a>
-                                <a class="dropdown-item" href="#">PROBLEM</a>
-                                <a class="dropdown-item" href="#">SUPPORTER</a>
+                                <a class="dropdown-item" href="#">PROBLEMS</a>
+                                <a class="dropdown-item" href="#">SUPPORTERS</a>
 
                             </div>
                         </li>
@@ -138,9 +182,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link border-right-1 supporter-shadow border-left-1" href="#">User's Podium</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link border-right-1 bg-green-1" href="#" data-toggle="modal" data-target="#exampleModal">Ask</a>
                         </li>
                         <li class="nav-item dropdown dropdown1">
                             <a class="nav-link Profile-pad active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -176,10 +217,10 @@
                                             <p>Or Login With</p>
                                             <hr class="my-2">
                                             <ul class="text-center">
-                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br><span><span>Facebook</span></a></li>
-                                                <li><a href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
-                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
                                             </ul>
                                             <h6 class="password-change pt-3"><a href="#">Lost Password </a>or<a href="#"> User Name</a></h6>
                                         </div>
@@ -190,14 +231,18 @@
                                             <hr class="my-2">
                                             <ul class="text-center">
                                                 <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><br><span>E-mail</span></a></li>
-                                                <li><a href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
-                                                <li><a href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
-                                                <li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br> <span>Linkedin</span></a></li>
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link border-right-1 bg-green-1" href="#" data-toggle="modal" data-target="#exampleModal">Ask Question</a>
                         </li>
                     </ul>
 
@@ -207,9 +252,8 @@
         </div>
     </header>
 
-    <!-- header-end-->
-
     <!--    header-end-->
+
 
     <!--    host-account-section-start-->
 
@@ -447,12 +491,12 @@
                                                             </select>
                                                         </div>
                                                         <div class="col-md-5 supporter-spl-dropdown">
-                                                            <div class="dropdown">
+                                                            <div class="dropdown-spl">
                                                                 <div class="select">
                                                                     <span>Choose Days</span>
                                                                 </div>
                                                                 <input type="hidden">
-                                                                <ul class="dropdown-menu">
+                                                                <ul class="dropdown-menu-spl">
                                                                     <li id="alldays">
                                                                         <div class="form-check">
                                                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -665,7 +709,6 @@
                                         </select>
                                     </div>
                                 </div>
-
                                 <div class="row mb-3">
                                     <div class="col-md-12 label-problem-div text-right">
                                         <label class="label-problem" for="exampleFormControlSelect1">Get it fixed</label>
@@ -677,7 +720,6 @@
                                         </select>
                                     </div>
                                 </div>
-
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group-1">
@@ -749,6 +791,7 @@
 
 
 
+
     <script type="text/javascript">
         $(window).scroll(function() {
             if ($(this).scrollTop() > 1) {
@@ -759,6 +802,7 @@
         });
 
     </script>
+
 
     <script type="text/javascript">
         (function($) {
@@ -779,33 +823,6 @@
 
     </script>
 
-    <script type="text/javascript">
-        /*Dropdown Menu*/
-        $('.dropdown').click(function() {
-            $(this).attr('tabindex', 1).focus();
-            $(this).toggleClass('active');
-            $(this).find('.dropdown-menu').slideToggle(300);
-        });
-        $('.dropdown').focusout(function() {
-            $(this).removeClass('active');
-            $(this).find('.dropdown-menu').slideUp(300);
-        });
-        $('.dropdown .dropdown-menu li').click(function() {
-            $(this).parents('.dropdown').find('span').text($(this).text());
-            $(this).parents('.dropdown').find('input').attr('value', $(this).attr('id'));
-        });
-        /*End Dropdown Menu*/
-
-
-        $('.dropdown-menu li').click(function() {
-            var input = '<strong>' + $(this).parents('.dropdown').find('input').val() + '</strong>',
-                msg = '<span class="msg">Hidden input value: ';
-            $('.msg').html(msg + input + '</span>');
-        });
-
-    </script>
-
-
     <script>
         $(document).ready(function() {
             $("#sidebar-dropdown-li-1").click(function() {
@@ -818,8 +835,9 @@
     <script>
         $(document).ready(function() {
             $("#sidebar-dropdown-li-2").click(function() {
-                //$("#sidebar-dropdown-li-3").toggle();
+                // $("#sidebar-dropdown-li-3").toggle();
                 $("#sidebar-list-3").hide();
+                $("#sidebar-list-5").hide();
                 $("#sidebar-list-2").toggle();
             });
         });
@@ -830,7 +848,17 @@
             $("#sidebar-dropdown-li-3").click(function() {
                 // $("#sidebar-dropdown-li-2").toggle();
                 $("#sidebar-list-2").hide();
+                $("#sidebar-list-5").hide();
                 $("#sidebar-list-3").toggle();
+            });
+            // ///////////////////////////////////////////////////////
+            $(".fix_id").hover(function() {
+                // $("#sidebar-dropdown-li-2").toggle();
+                $("#sidebar-list-2").hide();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-5").hide();
+                $("#sidebar-list-4").hide();
+                $("#sidebar-list-6").hide();
             });
         });
 
@@ -839,22 +867,51 @@
         $(document).ready(function() {
             $("#sidebar-dropdown-li-4").click(function() {
                 $("#sidebar-list-4").toggle();
-            })
-        });
-
-    </script>
-    <script>
-        $(document).ready(function() {
+            });
+            //////////////////////
             $("#sidebar-dropdown-li-5").click(function() {
-                $(".fixes-drop").hide();
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-2").hide();
                 $("#sidebar-list-5").toggle();
+            });
+            /////////////////////////////
+            $("#sidebar-dropdown-li-6").click(function() {
+                $("#sidebar-list-6").toggle();
             });
         });
 
     </script>
 
+    <!-- new -->
+
+    <!-- new -->
+
+    <script type="text/javascript">
+        /*Dropdown Menu*/
+        $('.dropdown-spl').click(function() {
+            $(this).attr('tabindex', 1).focus();
+            $(this).toggleClass('active');
+            $(this).find('.dropdown-menu-spl').slideToggle(300);
+        });
+        $('.dropdown-spl').focusout(function() {
+            $(this).removeClass('active');
+            $(this).find('.dropdown-menu-spl').slideUp(300);
+        });
+        $('.dropdown-spl .dropdown-menu-spl li').click(function() {
+            $(this).parents('.dropdown-spl').find('span').text($(this).text());
+            $(this).parents('.dropdown-spl').find('input').attr('value', $(this).attr('id'));
+        });
+        /*End Dropdown Menu*/
 
 
+        $('.dropdown-menu-spl li').click(function() {
+            var input = '<strong>' + $(this).parents('.dropdown-spl').find('input').val() + '</strong>',
+                msg = '<span class="msg">Hidden input value: ';
+            $('.msg').html(msg + input + '</span>');
+        });
+
+    </script>
 
 
     <!--
