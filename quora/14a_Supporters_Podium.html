@@ -1,0 +1,2415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>14a_Supporters_Podium</title>
+
+    <!--    font-awesome-css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--    font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!--    flag-dropdown-css-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--      custom-css-->
+    <link rel="stylesheet" href="css/header.css" type="text/css">
+    <link rel="stylesheet" href="css/style2.css" type="text/css">
+    <style type="">
+
+        #sidebar-list-1 {
+                display: none;
+            }
+            #sidebar-list-2 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+            #sidebar-list-3 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+
+
+            #sidebar-list-4 {
+                display: none;
+                background: #bbbbbb20;
+                height: 130px;
+                overflow: auto;
+            }
+            #sidebar-list-5 {
+                display: none;
+                background: #bbbbbb35;
+                margin: 5px 2px;
+                height: 240px;
+                overflow: auto;
+            }
+            #sidebar-list-6 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 8px;
+                height: 170px;
+                overflow: auto;
+            }
+
+            #sidebar-list-7 {
+                display: none;
+            }
+            #sidebar-list-8 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+            #sidebar-list-9 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+
+            #sidebar-list-10 {
+                display: none;
+                background: #bbbbbb20;
+                height: 130px;
+                overflow: auto;
+            }
+            #sidebar-list-11 {
+                display: none;
+                background: #bbbbbb35;
+                margin: 5px 2px;
+                height: 240px;
+                overflow: auto;
+            }
+            #sidebar-list-12 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 8px;
+                height: 170px;
+                overflow: auto;
+            }
+
+            #sidebar-list-13 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 5px 2px;
+                overflow: auto;
+            }
+
+            #sidebar-list-14 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 5px 2px;
+                overflow: auto;
+            }
+
+            #sidebar-list-15 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 5px 2px;
+                overflow: auto;
+            }
+
+            #sidebar-list-16 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 5px 2px;
+                overflow: auto;
+            }
+
+
+            /* table */
+
+            #table-list-7 {
+                display: none;
+            }
+            #table-list-8 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+            #table-list-9 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+
+            #table-list-10 {
+                display: none;
+                background: #bbbbbb20;
+                height: 130px;
+                overflow: auto;
+            }
+            #table-list-11 {
+                display: none;
+                background: #bbbbbb35;
+                margin: 5px 2px;
+                height: 240px;
+                overflow: auto;
+            }
+            #table-list-12 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 8px;
+                height: 170px;
+                overflow: auto;
+            }
+
+            #table-list-13 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+            #table-list-14 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+            #table-list-15 {
+                display: none;
+                background: rgba(187, 187, 187, 0.17);
+                margin: 10px;
+            }
+
+            #table-list-16 {
+                display: none;
+                background: #bbbbbb20;
+                margin: 10px;
+            }
+            /* table-dropdown */
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--    header-start-->
+
+    <header class="header w-100">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="images/logo-new.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown dropdown1">
+                            <a class="nav-link dropdown-toggle border-right-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Supporter
+                            </a>
+                            <div class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">How it Works?</a>
+                                <a class="dropdown-item" href="#">Privacy Policy</a>
+                                <a class="dropdown-item" href="#">Terms Of Use</a>
+                                <a class="dropdown-item" href="#">About Us</a>
+                            </div>
+                        </li>
+                        <li class="dropdown dropdown1 fixes nav-item">
+                            <a class="dropdown-toggle nav-link border-right-1 fix_id" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fixes</a>
+                            <ul class="dropdown-menu dropdown-menu1 dropdown-menu12" aria-labelledby="navbarDropdown">
+                                <li><a id="sidebar-dropdown-li-5" class="dropdown-li dropdown-toggle" href="#">Repairs & security</a></li>
+                                <div id="sidebar-list-5" class="fixes-drop">
+                                    <ul>
+                                        <li><a id="sidebar-dropdown-li-6" class="dropdown-li dropdown-toggle" href="#">Operating System Issues</a></li>
+                                        <div id="sidebar-list-6" class="fixes-drop">
+                                            <ul>
+                                                <li><a href="#">Viruses</a></li>
+                                                <li><a href="#">Spyware</a></li>
+                                                <li><a href="#">Ransomware</a></li>
+                                                <li><a href="#">Phishing</a></li>
+                                                <li><a href="#">Spam</a></li>
+                                                <li><a href="#">Key Logging</a></li>
+                                                <li><a href="#">Firewall</a></li>
+                                                <li><a href="#">Identity Theft</a></li>
+                                            </ul>
+                                        </div>
+                                        <li><a href="#">Device Management & Drivers</a></li>
+                                        <li><a href="#">Disk Management</a></li>
+                                        <li><a href="#">Computer Management</a></li>
+                                        <li><a href="#">Command Line</a></li>
+                                        <li><a href="#">User Control & Rights</a></li>
+                                        <li><a href="#">Network Issues</a></li>
+                                        <li><a href="#">Connection Issues</a></li>
+                                        <li><a href="#">File Explorer</a></li>
+                                        <li><a href="#">Start Menu & Taskbar</a></li>
+                                        <li><a href="#">Users & Accounts</a></li>
+                                        <li><a href="#">Printing</a></li>
+                                        <li><a href="#">Output</a></li>
+                                        <li><a href="#">Input</a></li>
+                                        <li><a href="#">Miscellaneous</a></li>
+                                    </ul>
+                                </div>
+                                <li><a href="#">Optimization & Customization</a></li>
+                                <li><a href="#">Apps & Features</a></li>
+                                <li><a id="sidebar-dropdown-li-3" class="dropdown-li dropdown-toggle" href="#">Essential Apps</a></li>
+                                <div id="sidebar-list-3" class="fixes-drop">
+                                    <ul>
+                                        <li><a href="#">Steam</a></li>
+                                        <li><a href="#">Emulators</a></li>
+                                        <li><a href="#">RetroArch</a></li>
+                                        <li><a href="#">Dolphin</a></li>
+                                    </ul>
+                                </div>
+                                <li><a id="sidebar-dropdown-li-2" class="dropdown-li dropdown-toggle" href="#">Special Apps</a></li>
+                                <div id="sidebar-list-2" class="fixes-drop">
+                                    <ul>
+
+                                        <li><a href="#">Producitivity Tools</a></li>
+                                        <li><a href="#">Password Management</a></li>
+                                        <li><a href="#">Photo</a></li>
+                                        <li><a href="#">Audio & Music</a></li>
+                                        <li><a href="#">CD/DVD/Blue-Ray</a></li>
+                                        <li><a id="sidebar-dropdown-li-4" class="dropdown-li dropdown-toggle" href="#">Gaming</a></li>
+                                        <div id="sidebar-list-4">
+                                            <ul>
+                                                <li><a href="#">Game Stores</a></li>
+                                                <li><a href="#">Xbox</a></li>
+                                                <li><a href="#">Steam</a></li>
+                                                <li><a href="#">Emulators</a></li>
+                                                <li><a href="#">RetroArch</a></li>
+                                            </ul>
+                                        </div>
+                                        <li><a href="#">Virtualization</a></li>
+                                        <li><a href="#">Miscellaneous</a></li>
+                                    </ul>
+                                </div>
+                                <li><a href="#">Files, Data & Content </a></li>
+                                <li><a href="#">Office Management & Security </a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link border-right-1" href="#">Problems</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control border header-search position-relative" type="search" placeholder="SEARCH..." aria-label="Search">
+                                <button class="btn btn-outline-success border header-search-btn my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                        <li class="nav-item header-dropdown po dropdown dropdown12">
+                            <a class="nav-link header_dropdown_content_link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            </a>
+                            <div class="dropdown-menu  header-dropdown-content" aria-labelledby="navbarDropdown" style="width: 340px;">
+                                <a class="dropdown-item" href="#">FIXES</a>
+                                <a class="dropdown-item" href="#">PROBLEMS</a>
+                                <a class="dropdown-item" href="#">SUPPORTERS</a>
+
+                            </div>
+                        </li>
+                        </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-right-1 supporter-shadow border-left-1" href="#">User's Podium</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown1">
+                            <a class="nav-link Profile-pad active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user-circle-o" style="font-size: 25px;"></i>
+                            </a>
+                            <div class="dropdown-menu profile-dropdown" aria-labelledby="navbarDropdown">
+                                <div class="pro-drop-header">
+                                    <p>Login to continue using Supporter!</p>
+                                </div>
+                                <div class="row justify-content-end px-2 mt-3 pb-3">
+
+                                    <div class="col-4 header-drop-form-head">
+                                        <p class="pt-2">User Name</p>
+                                    </div>
+                                    <div class="col-8 pl-0">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control  header-drop-form" id="username" aria-describedby="emailHelp" placeholder="" autofocus>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 header-drop-form-head">
+                                        <p class="pt-2">Password</p>
+                                    </div>
+                                    <div class="col-8 pl-0">
+                                        <div class="form-group">
+                                            <input type="Password" class="form-control header-drop-form" id="password" aria-describedby="emailHelp" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button type="button" class="btn btn-primary w-100 default-btn">Log In</button>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="header-drop-links-first">
+                                            <p>Or Login With</p>
+                                            <hr class="my-2">
+                                            <ul class="text-center">
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
+                                            </ul>
+                                            <h6 class="password-change pt-3"><a href="#">Lost Password </a>or<a href="#"> User Name</a></h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <div class="header-drop-links-second">
+                                            <p>Or Sign Up With</p>
+                                            <hr class="my-2">
+                                            <ul class="text-center">
+                                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><br><span>E-mail</span></a></li>
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link border-right-1 bg-green-1" href="#" data-toggle="modal" data-target="#exampleModal">Ask Question</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <!--    header-end-->
+
+    <!--    host-account-section-start-->
+
+    <section class="host-section-wrap my-5 py-2">
+        <div class="container big-container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="supporters-podium-wrap">
+                        <div class="supporters-podium-top-part">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h6 class="mt-1 mb-3">Welcome to Supporter’s Podium!</h6>
+                                    <p class="mb-4">Here you can find Fixers who can help you fix your problem using Remote Access Assistance, Screen Sharing & Voice Chat or Text Chat Support. If however, you’re a Fixer,you can find Users who need fix for their problems as well by clicking Just-A User tab.</p>
+                                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link default-btn active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Fixer Users</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link default-btn" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Just-A Users</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                        <hr>-->
+                        <div class="supporters-podium-bottom-part mx-lg-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fixer-users-tab fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                            <div class="fixer-users-tab-top">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="row">
+                                                                    <div class="col-md-2 pr-0 my-auto">
+                                                                        <label for="exampleInputEmail1">Search</label>
+                                                                    </div>
+                                                                    <div class="col-md-10">
+                                                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-2">
+                                                                <div class="row">
+                                                                    <div class="col-md-4 pr-0 my-auto">
+                                                                        <label for="exampleFormControlSelect1">Filter by</label>
+                                                                    </div>
+                                                                    <div class="col-md-8 pl-0">
+                                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                                            <option>Geek Score</option>
+                                                                            <option>3.5</option>
+                                                                            <option>3.7</option>
+                                                                            <option>4.0</option>
+                                                                            <option>4.2</option>
+                                                                            <option>4.5</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="row">
+                                                                    <div class="col-md-2 pr-0 my-auto">
+                                                                        <label for="exampleFormControlSelect1">Availability</label>
+                                                                    </div>
+                                                                    <div class="col-md-3 pr-0">
+                                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                                            <option>From</option>
+                                                                            <option>10.00 AM</option>
+                                                                            <option>10.30 AM</option>
+                                                                            <option>11.00 AM</option>
+                                                                            <option>11.30 AM</option>
+                                                                            <option>12.00 PM</option>
+                                                                        </select>
+                                                                    </div>
+
+                                                                    <div class="col-md-3 pr-0">
+                                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                                            <option>To</option>
+                                                                            <option>10.00 AM</option>
+                                                                            <option>10.30 AM</option>
+                                                                            <option>11.00 AM</option>
+                                                                            <option>11.30 AM</option>
+                                                                            <option>12.00 PM</option>
+                                                                        </select>
+                                                                    </div>
+
+                                                                    <div class="col-md-4">
+                                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                                            <option>Timezone</option>
+                                                                            <option>GMT+00:00</option>
+                                                                            <option>GMT+01:00</option>
+                                                                            <option>GMT+02:00</option>
+                                                                            <option>GMT+03:00</option>
+                                                                            <option>GMT+04:00</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <ul>
+                                                                    <li class="dropdown dropdown1-1 fixes nav-item">
+                                                                        <a class="dropdown-toggle nav-link modal-link border-right-1 fix_id3 position-relative" href="#" id="plus-mode" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Category</a>
+                                                                        <ul class="dropdown-menu dropdown-menu2 dropdown_menu20" aria-labelledby="navbarDropdown">
+                                                                            <li><a id="table-dropdown-li-11" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                                                    <div class="plus-minus"></div> Repairs & security
+                                                                                </a></li>
+                                                                            <div id="table-list-11" class="fixes-drop">
+                                                                                <ul>
+                                                                                    <li><a id="table-dropdown-li-12" class="dropdown-li plus-mode-1 dropdown-toggle d-flex" href="#">
+                                                                                            <div class="plus-minus"></div>Operating System Issues
+                                                                                        </a></li>
+                                                                                    <div id="table-list-12" class="fixes-drop">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Viruses" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck13">Viruses</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Spyware" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Spyware</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Ransomware" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Ransomware</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Phishing" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Phishing</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Spam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Spam</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Key Logging" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Key Logging</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="FireWall" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">FireWall</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Identity Theft" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Identity Theft</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Device Management & Drivers" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Device Management & Drivers</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Disk Management" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Disk Management</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Computer Management" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Computer Management</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Command Line" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Command Line</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="User Controls & Rights" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">User Controls & Rights</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Network Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Network Issues</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Connection Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Connection Issues</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="File Explorer" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">File Explorer</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Start menu & Taskbar" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Start menu & Taskbar</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="FUsers & Accounts" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">FUsers & Accounts</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Printing" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Printing</label>
+                                                                                        </div>
+
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Output" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Output</label>
+                                                                                        </div>
+
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Input</label>
+                                                                                        </div>
+
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Miscellaneous" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Miscellaneous</label>
+                                                                                        </div>
+
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <li>
+                                                                                <a id="table-dropdown-li-13" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                                                    <div class="plus-minus"></div>Optimization & Customization
+                                                                                </a>
+                                                                            </li>
+                                                                            <div id="table-list-13" class="fixes-drop">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <li>
+                                                                                <a id="table-dropdown-li-14" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                                                    <div class="plus-minus"></div>Apps & Features
+                                                                                </a>
+                                                                            </li>
+                                                                            <div id="table-list-14" class="fixes-drop">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Xbox</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <li><a id="table-dropdown-li-9" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                                                    <div class="plus-minus"></div>Essential Apps
+                                                                                </a></li>
+                                                                            <div id="table-list-9" class="fixes-drop">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Retroarch" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Dolphin" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Dolphin</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <li><a id="table-dropdown-li-8" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                                                    <div class="plus-minus"></div>Special Apps
+                                                                                </a></li>
+                                                                            <div id="table-list-8" class="fixes-drop">
+                                                                                <ul>
+
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Producitivity Tools" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1"> Producitivity Tools</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Password Management" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1"> Password Management</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Photos" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1"> Photos</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Audio & Music" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Audio & Music</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="CD/DVD/Blue-Ray" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">CD/DVD/Blue-Ray</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li><a id="table-dropdown-li-10" class="dropdown-li dropdown-toggle plus-mode-1 d-flex " href="#">
+                                                                                            <div class="plus-minus"></div>Gaming
+                                                                                        </a></li>
+                                                                                    <div id="table-list-10">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Game Stores" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Game Stores</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Xbox" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Xbox</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="form-check">
+                                                                                                    <input type="checkbox" value="Retroarch" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                                    <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Virtualization" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Virtualization</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Miscellaneous" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Miscellaneous</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <li>
+                                                                                <a id="table-dropdown-li-15" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                                                    <div class="plus-minus"></div>Files Data & Content
+                                                                                </a>
+                                                                            </li>
+                                                                            <div id="table-list-15">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="User Controls & Rights" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">User Controls & Rights</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Network Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Network Issues</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div class="form-check">
+                                                                                            <input type="checkbox" value="Connection Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                            <label class="form-check-label" for="exampleCheck1">Connection Issues</label>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <li>
+                                                                                <a id="table-dropdown-li-16" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                                                    <div class="plus-minus"></div>Office Management & Security
+                                                                                </a>
+                                                                            </li>
+                                                                            <div id="table-list-16">
+                                                                                <li>
+                                                                                    <div class="form-check">
+                                                                                        <input type="checkbox" value="FireWall" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                        <label class="form-check-label" for="exampleCheck1">FireWall</label>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <div class="form-check">
+                                                                                        <input type="checkbox" value="Identity Theft" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                                        <label class="form-check-label" for="exampleCheck1">Identity Theft</label>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="fixer-users-tab-bottom">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" scope="col">Online</th>
+                                                            <th class="text-center" scope="col">User Name</th>
+                                                            <th class="text-center" scope="col">Score</th>
+                                                            <th class="text-center" scope="col">Availability</th>
+                                                            <th class="text-center" scope="col">Timezone</th>
+                                                            <th class="text-center" scope="col">Problems Fixed</th>
+                                                            <th class="text-center" style="width: 22%;" scope="col">Categories (Expert in)</th>
+                                                            <th class="text-center" scope="col"> View/Hire</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row"><i class="fa fa-circle online" aria-hidden="true"></i></th>
+                                                            <td class="profile-spl-anchor"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <a class="profile-special1" href="#">Maxbrayne</a>
+                                                                <div class="profile-hover-details profile-hover-details1">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <h6><i class="fa fa-user-circle-o" aria-hidden="true"></i> Maxbrayne</h6>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <span>Score: 4.8 <a href="#">Read Comments</a></span>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p>Availability: 3:00pm to 8:00pm</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p>Timezone: Eastern Standard Time (GMT -5)</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p class="fix-p"><i class="fa fa-check" aria-hidden="true"></i> 35 Problems Fixed</p>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <p class="unfix-p"><i class="fa fa-times" aria-hidden="true"></i> 2 Problems Not Fixed</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <ul class="profile-hover-list">
+                                                                                <li>Categories (Expet in):</li>
+                                                                                <li><a href="#">PC Speed Up</a></li>
+                                                                                <li><a href="#">Internet Speed Up</a></li>
+                                                                                <li><a href="#">Memory (RAM) Issues</a></li>
+                                                                                <li><a href="#">Personalization</a></li>
+                                                                                <li><a href="#">Gaming</a></li>
+                                                                                <li><a href="#">Apple Products</a></li>
+                                                                                <li><a href="#">Microsoft Products</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6 text-left">
+                                                                                    <a href="#">Read Full Profile</a>
+                                                                                </div>
+                                                                                <div class="col-md-6 text-right">
+                                                                                    <a href="#">Hire User</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center">4.8</td>
+                                                            <td class="text-center">3:00pm to 8:00pm</td>
+                                                            <td class="text-center">GMT -5</td>
+                                                            <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> 35</td>
+                                                            <td>
+                                                                <ul>
+                                                                    <li><a href="#">Gaming</a></li>
+                                                                    <li><a href="#">Animation & 3D</a></li>
+                                                                </ul>
+                                                                <ul>
+                                                                    <li><a href="#">Optimization for Gaming</a></li>
+                                                                </ul>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <a href="#">View Profile</a>
+                                                                <br>
+                                                                <a href="#">Hire Fixer</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row"><i class="fa fa-circle online" aria-hidden="true"></i></th>
+                                                            <td class="profile-spl-anchor"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <a href="#" class="profile-special2">JoeMartyJoe</a>
+                                                                <div class="profile-hover-details profile-hover-details2">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <h6><i class="fa fa-user-circle-o" aria-hidden="true"></i> JoeMartyJoe</h6>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <span>Score: 4.8 <a href="#">Read Comments</a></span>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p>Availability: 3:00pm to 8:00pm</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p>Timezone: Eastern Standard Time (GMT -5)</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p class="fix-p"><i class="fa fa-check" aria-hidden="true"></i> 35 Problems Fixed</p>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <p class="unfix-p"><i class="fa fa-times" aria-hidden="true"></i> 2 Problems Not Fixed</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <ul class="profile-hover-list">
+                                                                                <li>Categories (Expet in):</li>
+                                                                                <li><a href="#">PC Speed Up</a></li>
+                                                                                <li><a href="#">Internet Speed Up</a></li>
+                                                                                <li><a href="#">Memory (RAM) Issues</a></li>
+                                                                                <li><a href="#">Personalization</a></li>
+                                                                                <li><a href="#">Gaming</a></li>
+                                                                                <li><a href="#">Apple Products</a></li>
+                                                                                <li><a href="#">Microsoft Products</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6 text-left">
+                                                                                    <a href="#">Read Full Profile</a>
+                                                                                </div>
+                                                                                <div class="col-md-6 text-right">
+                                                                                    <a href="#">Hire User</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center">4.7</td>
+                                                            <td class="text-center">10:00am to 4:00pm</td>
+                                                            <td class="text-center">GMT -3</td>
+                                                            <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> 12</td>
+                                                            <td>
+                                                                <ul>
+                                                                    <li><a href="#">PC Speed Up</a></li>
+                                                                    <li><a href="#">Internet Speed Up</a></li>
+                                                                </ul>
+                                                                <ul>
+                                                                    <li><a href="#">Memory (RAM) Issues</a></li>
+                                                                    <li><a id="toggle-more1">More...</a></li>
+                                                                </ul>
+                                                                <ul id="more-list1">
+                                                                    <li><a href="#">PC Speed Up</a></li>
+                                                                    <li><a href="#">Memory (RAM) Issues</a></li>
+                                                                </ul>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <a href="#">View Profile</a>
+                                                                <br>
+                                                                <a href="#">Hire Fixer</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row"><i class="fa fa-circle offline" aria-hidden="true"></i></th>
+                                                            <td class="profile-spl-anchor"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <a href="#" class="profile-special3">Shawn667</a>
+                                                                <div class="profile-hover-details profile-hover-details3">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <h6><i class="fa fa-user-circle-o" aria-hidden="true"></i> Shawn667</h6>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <span>Score: 4.8 <a href="#">Read Comments</a></span>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p>Availability: 3:00pm to 8:00pm</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p>Timezone: Eastern Standard Time (GMT -5)</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <p class="fix-p"><i class="fa fa-check" aria-hidden="true"></i> 35 Problems Fixed</p>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <p class="unfix-p"><i class="fa fa-times" aria-hidden="true"></i> 2 Problems Not Fixed</p>
+                                                                        </div>
+                                                                        <div class="col-md-12 mb-1">
+                                                                            <ul class="profile-hover-list">
+                                                                                <li>Categories (Expet in):</li>
+                                                                                <li><a href="#">PC Speed Up</a></li>
+                                                                                <li><a href="#">Internet Speed Up</a></li>
+                                                                                <li><a href="#">Memory (RAM) Issues</a></li>
+                                                                                <li><a href="#">Personalization</a></li>
+                                                                                <li><a href="#">Gaming</a></li>
+                                                                                <li><a href="#">Apple Products</a></li>
+                                                                                <li><a href="#">Microsoft Products</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="col-md-12">
+                                                                            <div class="row">
+                                                                                <div class="col-md-6 text-left">
+                                                                                    <a href="#">Read Full Profile</a>
+                                                                                </div>
+                                                                                <div class="col-md-6 text-right">
+                                                                                    <a href="#">Hire User</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-center">4.7</td>
+                                                            <td class="text-center">5:00pm to 10:00pm</td>
+                                                            <td class="text-center">GMT 0</td>
+                                                            <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> 102</td>
+                                                            <td>
+                                                                <ul>
+                                                                    <li><a href="#">Memory (RAM) Issues</a></li>
+                                                                    <li><a href="#">Personalization</a></li>
+                                                                </ul>
+                                                                <ul>
+                                                                    <li><a href="#">Browser</a></li>
+                                                                    <li><a href="#">Security & Encryption</a></li>
+                                                                    <li><a id="toggle-more2">More...</a></li>
+                                                                </ul>
+                                                                <ul id="more-list2">
+                                                                    <li><a href="#">Browser</a></li>
+                                                                    <li><a href="#">Security & Encryption</a></li>
+                                                                </ul>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <a href="#">View Profile</a>
+                                                                <br>
+                                                                <a href="#">Hire Fixer</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="tab-pane just-a-user-tab fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                            <div class="just-a-user-tab-top">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="row">
+                                                                    <div class="col-md-2 pr-0 my-auto">
+                                                                        <label for="exampleInputEmail1">Search</label>
+                                                                    </div>
+                                                                    <div class="col-md-10">
+                                                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-2">
+                                                                <div class="row">
+                                                                    <div class="col-md-4 pr-0 my-auto">
+                                                                        <label for="exampleFormControlSelect1">Filter by</label>
+                                                                    </div>
+                                                                    <div class="col-md-8 pl-0">
+                                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                                            <option>Online</option>
+                                                                            <option>Offline</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-2">
+                                                                <div class="row">
+                                                                    <div class="col-md-10">
+                                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                                            <option>Level Required</option>
+                                                                            <option>1</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="just-a-user-tab-bottom fixer-users-tab-bottom">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" scope="col">Online</th>
+                                                            <th class="text-center" scope="col">User Name</th>
+                                                            <th class="text-center" scope="col">Level Required</th>
+                                                            <th class="text-center" scope="col">Current Problem</th>
+                                                            <th class="text-center" scope="col">Problems Fixed</th>
+                                                            <th class="text-center" scope="col">Problems Not Fixed</th>
+                                                            <th class="text-center" scope="col">View/Fix</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row"><i class="fa fa-circle online" aria-hidden="true"></i></th>
+                                                            <td class="nt-special-a"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <a href="#">MarkSelby25</a></td>
+                                                            <td class="text-center">Fixer (Level 3)</td>
+                                                            <td>How do I install animated Wallpaper in Windows 10?</td>
+                                                            <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> 12</td>
+                                                            <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i> 3</td>
+                                                            <td class="text-center">
+                                                                <a href="#">View Profile</a>
+                                                                <br>
+                                                                <a href="#">Fix this Problem</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row"><i class="fa fa-circle online" aria-hidden="true"></i></th>
+                                                            <td class="nt-special-a"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <a href="#">Susan_2020</a></td>
+                                                            <td class="text-center">Chatter (Level 1) </td>
+                                                            <td>How do I speed up my PC for gaming, I have tried to update my GForce<br> driver but it doesn’t work. Please help me solve it, I can pay you high ba...</td>
+                                                            <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> 2</td>
+                                                            <td class="text-center"><i class="fa fa-times" aria-hidden="true"></i> 1</td>
+                                                            <td class="text-center">
+                                                                <a href="#">View Profile</a>
+                                                                <br>
+                                                                <a href="#">Fix this Problem</a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row"><i class="fa fa-circle offline" aria-hidden="true"></i></th>
+                                                            <td class="nt-special-a"><i class="fa fa-user-circle-o" aria-hidden="true"></i> <a href="#">Shariq2027</a></td>
+                                                            <td class="text-center">Helper (Level 2)</td>
+                                                            <td>How do I play Metal Arch on Metal Slug? </td>
+                                                            <td class="text-center"><i class="fa fa-check" aria-hidden="true"></i> 34</td>
+                                                            <td class="text-center">0</td>
+                                                            <td class="text-center">
+                                                                <a href="#">View Profile</a>
+                                                                <br>
+                                                                <a href="#">Fix this Problem</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!--    host-account-section-end-->
+
+
+    <!-- Modal -->
+    <div class="modal fade exampleModalask" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header ask-modal modal-header-1">
+                    <img src="images/logo-head.png" alt="">
+                    <h5 class="modal-title" id="exampleModalLabel">Ask Question</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body modal-body1">
+                    <div class="modal-blue-bg">
+                        <div class="row mb-2">
+                            <div class="col-12">
+                                <h5>Welcome!</h5>
+                            </div>
+                        </div>
+                        <form class="checkbox_listing">
+                            <div class="form-group">
+                                <div class="row mb-3">
+                                    <div class="col-md-12 mb-2">
+                                        <label for="exampleFormControlTextarea1">Type below what troubleshooting problem you need fixed.</label>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type your Question here..." rows="3"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-md-4 pr-0 d-flex modal-spl-1">
+                                        <label class="modal-link-label" for="exampleFormControlTextarea100">Choose Category</label>
+                                    </div>
+                                    <div class="col-md-8 pl-0">
+                                        <ul>
+                                            <li class="dropdown dropdown1-1 fixes nav-item">
+                                                <a class="dropdown-toggle nav-link modal-link border-right-1 fix_id2 position-relative" href="#" id="plus-mode" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Category</a>
+                                                <ul class="dropdown-menu dropdown-menu2 dropdown_menu20" aria-labelledby="navbarDropdown">
+                                                    <li><a id="sidebar-dropdown-li-11" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                            <div class="plus-minus"></div> Repairs & security
+                                                        </a></li>
+                                                    <div id="sidebar-list-11" class="fixes-drop">
+                                                        <ul>
+                                                            <li><a id="sidebar-dropdown-li-12" class="dropdown-li plus-mode-1 dropdown-toggle d-flex" href="#">
+                                                                    <div class="plus-minus"></div>Operating System Issues
+                                                                </a></li>
+                                                            <div id="sidebar-list-12" class="fixes-drop">
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Viruses" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck13">Viruses</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Spyware" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Spyware</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Ransomware" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Ransomware</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Phishing" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Phishing</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Spam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Spam</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Key Logging" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Key Logging</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="FireWall" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">FireWall</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Identity Theft" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Identity Theft</label>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Device Management & Drivers" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Device Management & Drivers</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Disk Management" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Disk Management</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Computer Management" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Computer Management</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Command Line" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Command Line</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="User Controls & Rights" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">User Controls & Rights</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Network Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Network Issues</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Connection Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Connection Issues</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="File Explorer" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">File Explorer</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Start menu & Taskbar" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Start menu & Taskbar</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="FUsers & Accounts" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">FUsers & Accounts</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Printing" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Printing</label>
+                                                                </div>
+
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Output" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Output</label>
+                                                                </div>
+
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Input</label>
+                                                                </div>
+
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Miscellaneous" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Miscellaneous</label>
+                                                                </div>
+
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <li>
+                                                        <a id="sidebar-dropdown-li-13" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                            <div class="plus-minus"></div>Optimization & Customization
+                                                        </a>
+                                                    </li>
+                                                    <div id="sidebar-list-13" class="fixes-drop">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <li>
+                                                        <a id="sidebar-dropdown-li-14" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                            <div class="plus-minus"></div>Apps & Features
+                                                        </a>
+                                                    </li>
+                                                    <div id="sidebar-list-14" class="fixes-drop">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Xbox</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <li><a id="sidebar-dropdown-li-9" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                            <div class="plus-minus"></div>Essential Apps
+                                                        </a></li>
+                                                    <div id="sidebar-list-9" class="fixes-drop">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Retroarch" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Dolphin" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Dolphin</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <li><a id="sidebar-dropdown-li-8" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                            <div class="plus-minus"></div>Special Apps
+                                                        </a></li>
+                                                    <div id="sidebar-list-8" class="fixes-drop">
+                                                        <ul>
+
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Producitivity Tools" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1"> Producitivity Tools</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Password Management" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1"> Password Management</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Photos" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1"> Photos</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Audio & Music" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Audio & Music</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="CD/DVD/Blue-Ray" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">CD/DVD/Blue-Ray</label>
+                                                                </div>
+                                                            </li>
+                                                            <li><a id="sidebar-dropdown-li-10" class="dropdown-li dropdown-toggle plus-mode-1 d-flex " href="#">
+                                                                    <div class="plus-minus"></div>Gaming
+                                                                </a></li>
+                                                            <div id="sidebar-list-10">
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Game Stores" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Game Stores</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Xbox" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Xbox</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="checkbox" value="Retroarch" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Virtualization" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Virtualization</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Miscellaneous" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Miscellaneous</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <li>
+                                                        <a id="sidebar-dropdown-li-15" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                            <div class="plus-minus"></div>Files Data & Content
+                                                        </a>
+                                                    </li>
+                                                    <div id="sidebar-list-15">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="User Controls & Rights" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">User Controls & Rights</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Network Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Network Issues</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" value="Connection Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                    <label class="form-check-label" for="exampleCheck1">Connection Issues</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <li>
+                                                        <a id="sidebar-dropdown-li-16" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
+                                                            <div class="plus-minus"></div>Office Management & Security
+                                                        </a>
+                                                    </li>
+                                                    <div id="sidebar-list-16">
+                                                        <li>
+                                                            <div class="form-check">
+                                                                <input type="checkbox" value="FireWall" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                <label class="form-check-label" for="exampleCheck1">FireWall</label>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="form-check">
+                                                                <input type="checkbox" value="Identity Theft" class="form-check-input exampleCheck13" id="exampleCheck1">
+                                                                <label class="form-check-label" for="exampleCheck1">Identity Theft</label>
+                                                            </div>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-12 label-problem-div text-right">
+                                    <label class="label-problem" for="exampleFormControlSelect1">Get it fixed</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>By All Users</option>
+                                        <option>By A Particular User</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group-1">
+                                        <input type="checkbox" id="modal-check-1" checked>
+                                        <label for="modal-check-1">Post it at our Website</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group-1">
+                                        <input type="checkbox" id="modal-check-2" checked>
+                                        <label for="modal-check-2">Find Users who can <span>Fix it right now</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </form>
+                    <div class="text-center blue-bg-under mt-4">
+                <button type="button" class="btn btn-primary default-btn" data-dismiss="modal">Ask</button>
+            </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <!-- modal -->
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--    ask-modal-dropdown-js-->
+    <script src="js/modal-dropdown.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+
+
+
+    <script src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('table').DataTable({
+                pageLength: 10,
+                lengthChange: false
+            });
+        });
+
+    </script>
+
+
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 1) {
+                $('header').addClass("sticky");
+            } else {
+                $('header').removeClass("sticky");
+            }
+        });
+
+    </script>
+
+
+    <script type="text/javascript">
+        (function($) {
+            $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+                if (!$(this).next().hasClass('show')) {
+                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+                }
+                var $subMenu = $(this).next(".dropdown-menu");
+                $subMenu.toggleClass('show');
+
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                    $('.dropdown-submenu .show').removeClass("show");
+                });
+
+                return false;
+            });
+        })(jQuery)
+
+    </script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $("#sidebar-dropdown-li-2").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-5").hide();
+                $("#sidebar-list-2").toggle();
+            });
+            ////////////////////////
+            $("#sidebar-dropdown-li-8").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-list-9").hide();
+                $("#sidebar-list-10").hide();
+                $("#sidebar-list-11").hide();
+                $("#sidebar-list-15").hide();
+                $("#sidebar-list-16").hide();
+                $("#sidebar-list-13").hide();
+                $("#sidebar-list-12").hide();
+                $("#sidebar-list-14").hide();
+                $("#sidebar-dropdown-li-10").hide();
+                $("#sidebar-list-8").toggle();
+                if ($("#sidebar-dropdown-li-8").hasClass('active')) {
+                    $("#sidebar-dropdown-li-8").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-8").addClass('active');
+
+
+                }
+            });
+              ////////////////////////
+            $("#sidebar-dropdown-li-13").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-list-9").hide();
+                $("#sidebar-list-11").hide();
+                $("#sidebar-list-14").hide();
+                $("#sidebar-list-15").hide();
+                $("#sidebar-list-12").hide();
+                $("#sidebar-list-16").hide();
+                $("#sidebar-list-8").hide();
+                $("#sidebar-list-10").hide();
+                $("#sidebar-list-13").toggle();
+                if ($("#sidebar-dropdown-li-13").hasClass('active')) {
+                    $("#sidebar-dropdown-li-13").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-13").addClass('active');
+
+
+                }
+            });
+                ////////////////////////
+            $("#sidebar-dropdown-li-14").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-list-9").hide();
+                $("#sidebar-list-11").hide();
+                $("#sidebar-list-13").hide();
+                $("#sidebar-list-15").hide();
+                $("#sidebar-list-12").hide();
+                $("#sidebar-list-16").hide();
+                $("#sidebar-list-8").hide();
+                $("#sidebar-list-14").toggle();
+                if ($("#sidebar-dropdown-li-14").hasClass('active')) {
+                    $("#sidebar-dropdown-li-14").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-14").addClass('active');
+
+
+                }
+            });
+                ////////////////////////
+            $("#sidebar-dropdown-li-15").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-list-9").hide();
+                $("#sidebar-list-11").hide();
+                $("#sidebar-list-8").hide();
+                $("#sidebar-list-10").hide();
+                $("#sidebar-list-12").hide();
+                $("#sidebar-list-13").hide();
+                $("#sidebar-list-14").hide();
+                $("#sidebar-list-16").hide();
+                $("#sidebar-list-15").toggle();
+                if ($("#sidebar-dropdown-li-15").hasClass('active')) {
+                    $("#sidebar-dropdown-li-15").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-15").addClass('active');
+
+
+                }
+            });
+                ////////////////////////
+            $("#sidebar-dropdown-li-16").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                 $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-list-9").hide();
+                $("#sidebar-list-11").hide();
+                $("#sidebar-list-10").hide();
+                $("#sidebar-list-8").hide();
+                $("#sidebar-list-12").hide();
+                $("#sidebar-list-13").hide();
+                $("#sidebar-list-14").hide();
+                $("#sidebar-list-15").hide();
+                $("#sidebar-list-16").toggle();
+                if ($("#sidebar-dropdown-li-16").hasClass('active')) {
+                    $("#sidebar-dropdown-li-16").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-16").addClass('active');
+
+
+                }
+            });
+
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#sidebar-dropdown-li-3").click(function() {
+                // $("#sidebar-dropdown-li-2").toggle();
+                $("#sidebar-list-2").hide();
+                $("#sidebar-list-5").hide();
+                $("#sidebar-list-3").toggle();
+            });
+            // ///////////////////////////////////////////////////////
+            $(".fix_id").hover(function() {
+                // $("#sidebar-dropdown-li-2").toggle();
+                $("#sidebar-list-2").hide();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-5").hide();
+                $("#sidebar-list-4").hide();
+                $("#sidebar-list-6").hide();
+            });
+            /////////////////////////////////////////////////////////////////
+            $("#sidebar-dropdown-li-9").click(function() {
+                // $("#sidebar-dropdown-li-2").toggle();
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-list-8").hide();
+                $("#sidebar-list-11").hide();
+                $("#sidebar-list-13").hide();
+                $("#sidebar-list-14").hide();
+                $("#sidebar-list-15").hide();
+                $("#sidebar-list-16").hide();
+                $("#sidebar-list-9").toggle();
+                if ($("#sidebar-dropdown-li-9").hasClass('active')) {
+                    $("#sidebar-dropdown-li-9").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-9").addClass('active');
+
+                }
+            });
+            // ///////////////////////////////////////////////////////
+            $(".fix_id2").hover(function() {
+                // $("#sidebar-dropdown-li-2").toggle();
+                $("#sidebar-list-8").hide();
+                $("#sidebar-list-9").hide();
+                $("#sidebar-list-11").hide();
+                $("#sidebar-list-10").hide();
+                $("#sidebar-list-12").hide();
+                $("#sidebar-list-13").hide();
+                $("#sidebar-list-14").hide();
+                $("#sidebar-list-15").hide();
+                $("#sidebar-list-16").hide();
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#sidebar-dropdown-li-4").click(function() {
+                $("#sidebar-list-4").toggle();
+            });
+            //////////////////////
+            $("#sidebar-dropdown-li-5").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-list-3").hide();
+                $("#sidebar-list-2").hide();
+                $("#sidebar-list-5").toggle();
+            });
+            /////////////////////////////
+            $("#sidebar-dropdown-li-6").click(function() {
+                $("#sidebar-list-6").toggle();
+            });
+            /////////////////////////////
+            
+            /////////////////////////////////////////
+            $("#sidebar-dropdown-li-10").click(function() {
+                // $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-list-10").toggle();
+                if ($("#sidebar-dropdown-li-10").hasClass('active')) {
+                    $("#sidebar-dropdown-li-10").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-10").addClass('active');
+
+                }
+            });
+            //////////////////////
+            $("#sidebar-dropdown-li-11").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-12").removeClass('active');
+                 $("#sidebar-dropdown-li-13").removeClass('active');
+                 $("#sidebar-dropdown-li-14").removeClass('active');
+                 $("#sidebar-dropdown-li-15").removeClass('active');
+                 $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-list-9").hide();
+                $("#sidebar-list-13").hide();
+                $("#sidebar-list-14").hide();
+                $("#sidebar-list-15").hide();
+                $("#sidebar-list-16").hide();
+                $("#sidebar-list-8").hide();
+                $("#sidebar-list-11").toggle();
+                if ($("#sidebar-dropdown-li-11").hasClass('active')) {
+                    $("#sidebar-dropdown-li-11").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-11").addClass('active');
+
+                }
+            });
+            /////////////////////////////
+            $("#sidebar-dropdown-li-12").click(function() {
+                $("#sidebar-dropdown-li-8").removeClass('active');
+                $("#sidebar-dropdown-li-9").removeClass('active');
+                // $("#sidebar-dropdown-li-11").removeClass('active');
+                $("#sidebar-dropdown-li-10").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-list-12").toggle();
+                if ($("#sidebar-dropdown-li-12").hasClass('active')) {
+                    $("#sidebar-dropdown-li-12").removeClass('active');
+                } else {
+                    $("#sidebar-dropdown-li-12").addClass('active');
+
+                }
+            });
+        });
+
+    </script>
+
+
+
+    <!-- table-shit-dropdown -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+         $("#table-dropdown-li-9").click(function() {
+                // $("#table-dropdown-li-2").toggle();
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+                $("#table-list-8").hide();
+                $("#table-list-11").hide();
+                $("#table-list-13").hide();
+                $("#table-list-14").hide();
+                $("#table-list-15").hide();
+                $("#table-list-16").hide();
+                $("#table-list-9").toggle();
+                if ($("#table-dropdown-li-9").hasClass('active')) {
+                    $("#table-dropdown-li-9").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-9").addClass('active');
+
+                }
+            });
+            // ///////////////////////////////////////////////////////
+            $(".fix_id3").hover(function() {
+                // $("#table-dropdown-li-2").toggle();
+                $("#table-list-8").hide();
+                $("#table-list-9").hide();
+                $("#table-list-11").hide();
+                $("#table-list-10").hide();
+                $("#table-list-12").hide();
+                $("#table-list-13").hide();
+                $("#table-list-14").hide();
+                $("#table-list-15").hide();
+                $("#table-list-16").hide();
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+            });
+        });
+    </script>
+
+    <!-- another one -->
+    <script>
+        $(document).ready(function() {
+            $("#table-dropdown-li-10").click(function() {
+                // $("#table-dropdown-li-8").removeClass('active');
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+                $("#table-list-10").toggle();
+                if ($("#table-dropdown-li-10").hasClass('active')) {
+                    $("#table-dropdown-li-10").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-10").addClass('active');
+
+                }
+            });
+            //////////////////////
+            $("#table-dropdown-li-11").click(function() {
+                // $("#table-dropdown-li-3").toggle();
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                 $("#table-dropdown-li-13").removeClass('active');
+                 $("#table-dropdown-li-14").removeClass('active');
+                 $("#table-dropdown-li-15").removeClass('active');
+                 $("#table-dropdown-li-16").removeClass('active');
+                $("#table-list-9").hide();
+                $("#table-list-13").hide();
+                $("#table-list-14").hide();
+                $("#table-list-15").hide();
+                $("#table-list-16").hide();
+                $("#table-list-8").hide();
+                $("#table-list-11").toggle();
+                if ($("#table-dropdown-li-11").hasClass('active')) {
+                    $("#table-dropdown-li-11").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-11").addClass('active');
+
+                }
+            });
+            /////////////////////////////
+            $("#table-dropdown-li-12").click(function() {
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-dropdown-li-9").removeClass('active');
+                // $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+                $("#table-list-12").toggle();
+                if ($("#table-dropdown-li-12").hasClass('active')) {
+                    $("#table-dropdown-li-12").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-12").addClass('active');
+
+                }
+            });
+        });
+
+    </script>
+
+    <!-- another one -->
+
+    <script>
+        $(document).ready(function() {
+            $("#table-dropdown-li-8").click(function() {
+                // $("#table-dropdown-li-3").toggle();
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+                $("#table-list-9").hide();
+                $("#table-list-10").hide();
+                $("#table-list-11").hide();
+                $("#table-list-15").hide();
+                $("#table-list-16").hide();
+                $("#table-list-13").hide();
+                $("#table-list-12").hide();
+                $("#table-list-14").hide();
+                $("#table-dropdown-li-10").hide();
+                $("#table-list-8").toggle();
+                if ($("#table-dropdown-li-8").hasClass('active')) {
+                    $("#table-dropdown-li-8").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-8").addClass('active');
+
+
+                }
+            });
+              ////////////////////////
+            $("#table-dropdown-li-13").click(function() {
+                // $("#table-dropdown-li-3").toggle();
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+                $("#table-list-9").hide();
+                $("#table-list-11").hide();
+                $("#table-list-14").hide();
+                $("#table-list-15").hide();
+                $("#table-list-12").hide();
+                $("#table-list-16").hide();
+                $("#table-list-8").hide();
+                $("#table-list-10").hide();
+                $("#table-list-13").toggle();
+                if ($("#table-dropdown-li-13").hasClass('active')) {
+                    $("#table-dropdown-li-13").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-13").addClass('active');
+
+
+                }
+            });
+                ////////////////////////
+            $("#table-dropdown-li-14").click(function() {
+                // $("#table-dropdown-li-3").toggle();
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-list-9").hide();
+                $("#table-list-11").hide();
+                $("#table-list-13").hide();
+                $("#table-list-15").hide();
+                $("#table-list-12").hide();
+                $("#table-list-16").hide();
+                $("#table-list-8").hide();
+                $("#table-list-14").toggle();
+                if ($("#table-dropdown-li-14").hasClass('active')) {
+                    $("#table-dropdown-li-14").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-14").addClass('active');
+
+
+                }
+            });
+                ////////////////////////
+            $("#table-dropdown-li-15").click(function() {
+                // $("#table-dropdown-li-3").toggle();
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-16").removeClass('active');
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-list-9").hide();
+                $("#table-list-11").hide();
+                $("#table-list-8").hide();
+                $("#table-list-10").hide();
+                $("#table-list-12").hide();
+                $("#table-list-13").hide();
+                $("#table-list-14").hide();
+                $("#table-list-16").hide();
+                $("#table-list-15").toggle();
+                if ($("#table-dropdown-li-15").hasClass('active')) {
+                    $("#table-dropdown-li-15").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-15").addClass('active');
+
+
+                }
+            });
+                ////////////////////////
+            $("#table-dropdown-li-16").click(function() {
+                // $("#table-dropdown-li-3").toggle();
+                $("#table-dropdown-li-9").removeClass('active');
+                $("#table-dropdown-li-11").removeClass('active');
+                $("#table-dropdown-li-10").removeClass('active');
+                $("#table-dropdown-li-8").removeClass('active');
+                $("#table-dropdown-li-12").removeClass('active');
+                 $("#table-dropdown-li-13").removeClass('active');
+                $("#table-dropdown-li-14").removeClass('active');
+                $("#table-dropdown-li-15").removeClass('active');
+                $("#table-list-9").hide();
+                $("#table-list-11").hide();
+                $("#table-list-10").hide();
+                $("#table-list-8").hide();
+                $("#table-list-12").hide();
+                $("#table-list-13").hide();
+                $("#table-list-14").hide();
+                $("#table-list-15").hide();
+                $("#table-list-16").toggle();
+                if ($("#table-dropdown-li-16").hasClass('active')) {
+                    $("#table-dropdown-li-16").removeClass('active');
+                } else {
+                    $("#table-dropdown-li-16").addClass('active');
+
+
+                }
+            });
+
+        });
+
+    </script>
+
+    <!-- table-shit-dropdown -->
+
+
+    <!-- new -->
+
+    <script>
+        $(".profile-special1").hover(function() {
+            // $("#sidebar-dropdown-li-2").toggle();
+            $(".profile-hover-details1").show();
+            $(".profile-hover-details2").hide();
+            $(".profile-hover-details3").hide();
+        });
+
+        $(".profile-special2").hover(function() {
+            // $("#sidebar-dropdown-li-2").toggle();
+            $(".profile-hover-details2").show();
+            $(".profile-hover-details1").hide();
+            $(".profile-hover-details3").hide();
+        });
+
+        $(".profile-special3").hover(function() {
+            // $("#sidebar-dropdown-li-2").toggle();
+            $(".profile-hover-details3").show();
+            $(".profile-hover-details1").hide();
+            $(".profile-hover-details2").hide();
+        });
+        $(".profile-spl-anchor").hover(function() {
+            // $("#sidebar-dropdown-li-2").toggle();
+            $(".profile-hover-details").hide();
+
+        });
+
+    </script>
+
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            $("#toggle-more1").click(function() {
+                var elem = $("#toggle-more1").text();
+                if (elem == "More...") {
+                    //Stuff to do when btn is in the read more state
+                    $("#toggle-more1").text("Less...");
+                    $("#more-list1").show();
+                } else {
+                    //Stuff to do when btn is in the read less state
+                    $("#toggle-more1").text("More...");
+                    $("#more-list1").hide();
+                }
+            });
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $("#toggle-more2").click(function() {
+                var elem = $("#toggle-more2").text();
+                if (elem == "More...") {
+                    //Stuff to do when btn is in the read more state
+                    $("#toggle-more2").text("Less...");
+                    $("#more-list2").show();
+                } else {
+                    //Stuff to do when btn is in the read less state
+                    $("#toggle-more2").text("More...");
+                    $("#more-list2").hide();
+                }
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var telInput = $("#phone"),
+            errorMsg = $("#error-msg"),
+            validMsg = $("#valid-msg");
+
+        // initialise plugin
+        telInput.intlTelInput({
+
+            allowExtensions: true,
+            formatOnDisplay: true,
+            autoFormat: true,
+            autoHideDialCode: true,
+            autoPlaceholder: true,
+            defaultCountry: "auto",
+            ipinfoToken: "yolo",
+
+            nationalMode: false,
+            numberType: "MOBILE",
+            //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            preferredCountries: ['sa', 'ae', 'qa', 'om', 'bh', 'kw', 'ma'],
+            preventInvalidNumbers: true,
+            separateDialCode: true,
+            initialCountry: "auto",
+            geoIpLookup: function(callback) {
+                $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                    var countryCode = (resp && resp.country) ? resp.country : "";
+                    callback(countryCode);
+                });
+            },
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"
+        });
+
+        var reset = function() {
+            telInput.removeClass("error");
+            errorMsg.addClass("hide");
+            validMsg.addClass("hide");
+        };
+
+        // on blur: validate
+        telInput.blur(function() {
+            reset();
+            if ($.trim(telInput.val())) {
+                if (telInput.intlTelInput("isValidNumber")) {
+                    validMsg.removeClass("hide");
+                } else {
+                    telInput.addClass("error");
+                    errorMsg.removeClass("hide");
+                }
+            }
+        });
+
+        // on keyup / change flag: reset
+        telInput.on("keyup change", reset);
+
+    </script>
+
+
+</body>
+
+</html>

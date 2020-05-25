@@ -376,8 +376,13 @@ header {
     transition: 0.30s ease-in-out;
 }
 
+.header-drop-links-first p {
+    font-size: 13px;
+}
 
-
+.header-drop-links-second p {
+    font-size: 13px;
+}
 
 
 
@@ -538,6 +543,153 @@ header {
     background: #37a000;
 }
 
+/*  */
+
+
+#sidebar-list-10::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+#sidebar-list-10::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#sidebar-list-10::-webkit-scrollbar-thumb {
+    background: #37a000;
+    border-radius: 10px;
+}
+
+#sidebar-list-10::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+
+#sidebar-list-11::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+#sidebar-list-11::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#sidebar-list-11::-webkit-scrollbar-thumb {
+    background: #37a000;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#sidebar-list-11::-webkit-scrollbar-thumb:hover {
+    background: #37a000;
+}
+/*  */
+
+
+#sidebar-list-12::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+#sidebar-list-12::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#sidebar-list-12::-webkit-scrollbar-thumb {
+    background: #37a000;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#sidebar-list-12::-webkit-scrollbar-thumb:hover {
+    background: #37a000;
+}
+
+
+
+/* ----------------
+------------table-track 
+---------------------------------------*/
+
+#table-list-11::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+#table-list-11::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#table-list-11::-webkit-scrollbar-thumb {
+    background: #37a000;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#table-list-11::-webkit-scrollbar-thumb:hover {
+    background: #37a000;
+}
+
+/*  */
+
+#table-list-12::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+#table-list-12::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#table-list-12::-webkit-scrollbar-thumb {
+    background: #37a000;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#table-list-12::-webkit-scrollbar-thumb:hover {
+    background: #37a000;
+}
+
+#table-list-10::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+#table-list-10::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+#table-list-10::-webkit-scrollbar-thumb {
+    background: #37a000;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+#table-list-10::-webkit-scrollbar-thumb:hover {
+    background: #37a000;
+}
+
+
+
+/* ----------------
+------------table-track 
+---------------------------------------*/
+
+
 .dropdown-menu1 li:hover {
     color: #16181b;
     text-decoration: none;
@@ -555,15 +707,37 @@ header {
 
 .header_dropdown_content_link {
     position: absolute;
-    padding: 0 !important;
+    padding: 17px !important;
     box-shadow: none !important;
-    top: -7px;
-    left: -62px;
+    top: -18px;
+    left: -81px;
     height: 0px !important;
+    border: 1px solid transparent;
+}
+
+.header_dropdown_content_link:after {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 1px;
+    width: 0;
+    font-size: 22px;
+    color: #37a000;
+    height: 0;
+    margin-top: 3px;
+    margin-left: -7px;
+    vertical-align: .255em;
+    content: "\f107";
+    border-top: 0px solid;
+    border-right: 6px solid transparent;
+    border-bottom: 0;
+    border-left: 6px solid transparent;
+    font-family: FontAwesome;
 }
 
 .header_dropdown_content_link:hover {
     color: #37a000 !important;
+    background: transparent !important;
 }
 
 .header_dropdown_content_link:active {
@@ -578,8 +752,112 @@ header {
 
 .profile-dropdown {}
 
+.modal-link {
+    padding: 0 !important;
+}
+
+.fa-minus {
+    display: none;
+}
+
+.plus-minus:after {
+   font-family: FontAwesome;
+   font-size: 12px;
+   content: "\f067";
+   color: #000;
+}
+
+.plus-mode-1.active .plus-minus:after {
+    font-family: FontAwesome;
+   font-size: 12px;
+   content: "\f068";
+   color: #000;
+}
 
 
+.modal-link {
+    padding: 10px 10px !important;
+    border: 1px solid #bbbbbb85;
+    font-size: 13px;
+    color: #666 !important
+}
+
+.modal-link-label {
+    line-height: 39px;
+}
+
+.modal-link::after {
+    display: inline-block;
+    width: 0;
+    right: 9px;
+    top: 18px;
+    position: absolute;
+    height: 0;
+    /* margin-left: 134px; */
+    vertical-align: .255em;
+    content: "";
+    border-top: .4em solid;
+    border-right: .4em solid transparent;
+    border-bottom: 0;
+    border-left: .4em solid transparent;
+}
+
+.plus-mode-1::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.plus-minus {
+    padding-right: 12px;
+}
+
+.dropdown_menu20 {
+    min-width: 18rem !important;
+}
+
+.dropdown_menu20 li a {
+    color: #666;
+    font-size: 12px !important;
+    font-weight: 400;
+    display: block;
+    padding: 5px 5px !important;
+    text-transform: uppercase;
+}
+
+.dropdown_menu20 .form-check {
+    margin: 9px 5px !important;
+}
+
+.dropdown_menu20 .form-check-input {
+    position: absolute;
+    margin-top: .2rem !important;
+    margin-left: -1.25rem;
+}
+
+.blue-bg-under .default-btn {
+    top: -60px;
+}
+
+.plus-mode-1 {
+    position: relative;
+}
+
+.dropdown_menu20 .form-check-label {
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+}
+
+.plus-minus {
+
+}
 
 /* to hide datalist arrow in webkit */
 

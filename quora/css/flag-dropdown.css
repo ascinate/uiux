@@ -1672,7 +1672,6 @@ pre {
 
 input,
 button {
-    height: 38px;
     margin: 0;
     padding: 6px 12px;
     border-radius: 2px;
@@ -1680,6 +1679,7 @@ button {
     font-size: 100%;
     color: inherit;
 }
+
 
 input:hover,
 button:hover {
@@ -1703,7 +1703,7 @@ button[disabled] {
 input,
 select {
     border: 1px solid #CCC;
-    width: 100%;
+    /*    width: 100%;*/
 }
 
 ::-webkit-input-placeholder {
