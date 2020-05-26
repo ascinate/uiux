@@ -61,6 +61,11 @@ a:hover {
 }*/
 
 
+.body-background {
+    background-size: cover;
+    background-position: center;
+}
+
 
 #phone {
     width: 100%;
