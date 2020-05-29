@@ -126,22 +126,22 @@
 <body>
 
     <!--    header-start-->
+<!--    header-start-->
 
     <header class="header w-100">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="images/logo-new.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item dropdown dropdown1">
-                            <a class="nav-link dropdown-toggle border-right-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Supporter
+                        <li class="nav-item dropdown  dropdown1">
+                            <a class="nav-link logo-link dropdown-toggle border-right-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/logo.gif" alt="">
                             </a>
-                            <div class="dropdown-menu dropdown-menu1" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu logo-menu dropdown-menu1" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">How it Works?</a>
                                 <a class="dropdown-item" href="#">Privacy Policy</a>
                                 <a class="dropdown-item" href="#">Terms Of Use</a>
@@ -235,30 +235,71 @@
                             <div class="dropdown-menu  header-dropdown-content" aria-labelledby="navbarDropdown" style="width: 340px;">
                                 <a class="dropdown-item" href="#">FIXES</a>
                                 <a class="dropdown-item" href="#">PROBLEMS</a>
-                                <a class="dropdown-item" href="#">SUPPORTERS</a>
+                                <a class="dropdown-item" href="#">FIXER GEEKS</a>
 
                             </div>
                         </li>
                         </form>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link border-right-1 supporter-shadow border-left-1" href="#">User's Podium</a>
+                            <a class="nav-link border-right-1 supporter-shadow border-left-1" href="#">Geek's Podium</a>
                         </li>
                         <li class="nav-item dropdown dropdown1">
                             <a class="nav-link Profile-pad active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-user-circle-o" style="font-size: 25px;"></i>
                             </a>
-                            <div class="dropdown-menu drop-menu-new dropdown-menu1" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Overview</a>
-                                <a class="dropdown-item" href="#">Profile</a>
-                                <a class="dropdown-item" href="#">Account Settings</a>
-                                <a class="dropdown-item" href="#">Score & Comments</a>
-                                <a class="dropdown-item" href="#">Fixer Settings</a>
-                                <a class="dropdown-item" href="#">Fixes & Problems</a>
-                                <a class="dropdown-item" href="#">Messeges</a>
-                                <a class="dropdown-item" href="#">Notifications</a>
-                                <a class="dropdown-item" href="#">Security Settings</a>
-                                <a class="dropdown-item" href="#">Logout</a>
+                            <div class="dropdown-menu profile-dropdown" aria-labelledby="navbarDropdown">
+                                <div class="pro-drop-header">
+                                    <p>Login to continue using Fixer Geek!</p>
+                                </div>
+                                <div class="row justify-content-end px-2 mt-3 pb-3">
+
+                                    <div class="col-4 header-drop-form-head">
+                                        <p class="pt-2">User Name</p>
+                                    </div>
+                                    <div class="col-8 pl-0">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control  header-drop-form" id="username" aria-describedby="emailHelp" placeholder="" autofocus>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 header-drop-form-head">
+                                        <p class="pt-2">Password</p>
+                                    </div>
+                                    <div class="col-8 pl-0">
+                                        <div class="form-group">
+                                            <input type="Password" class="form-control header-drop-form" id="password" aria-describedby="emailHelp" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button type="button" class="btn btn-primary w-100 default-btn">Log In</button>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="header-drop-links-first">
+                                            <p>Or Login With</p>
+                                            <hr class="my-2">
+                                            <ul class="text-center">
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
+                                            </ul>
+                                            <h6 class="password-change pt-3"><a href="#">Lost Password </a>or<a href="#"> User Name</a></h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-4">
+                                        <div class="header-drop-links-second">
+                                            <p>Or Sign Up With</p>
+                                            <hr class="my-2">
+                                            <ul class="text-center">
+                                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><br><span>E-mail</span></a></li>
+                                                <li><a class="spl-facebook" href="#"><i class="fa fa-facebook-official"></i><br><span>Facebook</span></a></li>
+                                                <li><a class="spl-google" href="#"><i class="fa fa-google"> </i><br><span>Google</span></a></li>
+                                                <li><a class="spl-windows" href="#"><i class="fa fa-windows" aria-hidden="true"></i> <br><span>Microsoft</span></a></li>
+                                                <li><a class="spl-linkedin" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><span> Linkedin</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                         <li class="nav-item ">
@@ -661,8 +702,8 @@
                                     <div class="col-md-8 pl-0">
                                         <ul>
                                             <li class="dropdown dropdown1-1 fixes nav-item">
-                                                <a class="dropdown-toggle nav-link modal-link border-right-1 fix_id2 position-relative" href="#" id="plus-mode" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Category</a>
-                                                <ul class="dropdown-menu dropdown-menu2 dropdown_menu20" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-toggle nav-link modal-link border-right-1 fix_id2 position-relative" href="#" id="plus-mode">Select Category</a>
+                                                <ul class="dropdown-menu dropdown-menu2 dropdown_menu20" aria-labelledby="navbarDropdown" id="modal-mode">
                                                     <li><a id="sidebar-dropdown-li-11" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
                                                             <div class="plus-minus"></div> Repairs & security
                                                         </a></li>
@@ -671,145 +712,151 @@
                                                             <li><a id="sidebar-dropdown-li-12" class="dropdown-li plus-mode-1 dropdown-toggle d-flex" href="#">
                                                                     <div class="plus-minus"></div>Operating System Issues
                                                                 </a></li>
-                                                            <div id="sidebar-list-12" class="fixes-drop">
+                                                            <div id="sidebar-list-12" class="fixes-drop checkbox_listing-1 checkbox_listing-2">
                                                                 <ul>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Viruses" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck13">Viruses</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-1" >
+                                                                            <label for="modal-1">VIRUS </label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Spyware" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Spyware</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-2" >
+                                                                            <label for="modal-2">spyware </label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Ransomware" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Ransomware</label>
+
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-3" >
+                                                                            <label for="modal-3">ransomware </label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Phishing" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Phishing</label>
+
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-4" >
+                                                                            <label for="modal-4">Phishing </label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Spam" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Spam</label>
+
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-5" >
+                                                                            <label for="modal-5">Spam </label>
+                                                                        </div>
+
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-6" >
+                                                                            <label for="modal-6">Key logging </label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Key Logging" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Key Logging</label>
+
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-7" >
+                                                                            <label for="modal-7">Firewall </label>
                                                                         </div>
+
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="FireWall" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">FireWall</label>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Identity Theft" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Identity Theft</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-8" >
+                                                                            <label for="modal-8">identity Theft </label>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
                                                             </div>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Device Management & Drivers" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Device Management & Drivers</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-9" >
+                                                                    <label for="modal-9">Device management & drivers </label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Disk Management" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Disk Management</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-10" >
+                                                                    <label for="modal-10">Disk Management</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Computer Management" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Computer Management</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-11" >
+                                                                    <label for="modal-11">Computer Management</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Command Line" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Command Line</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-12" >
+                                                                    <label for="modal-12">Command Line</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="User Controls & Rights" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">User Controls & Rights</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-13" >
+                                                                    <label for="modal-13">User controls & rights</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Network Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Network Issues</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-14" >
+                                                                    <label for="modal-14">Network Issue</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Connection Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Connection Issues</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-15" >
+                                                                    <label for="modal-15">Connection Issue Line</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="File Explorer" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">File Explorer</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-16" >
+                                                                    <label for="modal-16">File Explorer</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Start menu & Taskbar" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Start menu & Taskbar</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-17" >
+                                                                    <label for="modal-17">Start Menu & Taskbar</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="FUsers & Accounts" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">FUsers & Accounts</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-18" >
+                                                                    <label for="modal-18">Fu Users & Accounts</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Printing" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Printing</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-19" >
+                                                                    <label for="modal-19">Printing</label>
                                                                 </div>
 
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Output" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Output</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-20" >
+                                                                    <label for="modal-20">Output</label>
                                                                 </div>
 
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Input</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-21" >
+                                                                    <label for="modal-21">INput</label>
                                                                 </div>
 
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Miscellaneous" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Miscellaneous</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-22" >
+                                                                    <label for="modal-22">Miscellaneous</label>
                                                                 </div>
-
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -818,18 +865,18 @@
                                                             <div class="plus-minus"></div>Optimization & Customization
                                                         </a>
                                                     </li>
-                                                    <div id="sidebar-list-13" class="fixes-drop">
+                                                    <div id="sidebar-list-13" class="fixes-drop checkbox_listing-1 checkbox_listing-2">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-23" >
+                                                                    <label for="modal-23">Steam</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-24" >
+                                                                    <label for="modal-24">Emulators</label>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -839,18 +886,18 @@
                                                             <div class="plus-minus"></div>Apps & Features
                                                         </a>
                                                     </li>
-                                                    <div id="sidebar-list-14" class="fixes-drop">
+                                                    <div id="sidebar-list-14" class="fixes-drop checkbox_listing-1 checkbox_listing-2">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-25" >
+                                                                    <label for="modal-25">retroArch</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Xbox</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-26" >
+                                                                    <label for="modal-26">Xbox</label>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -858,30 +905,30 @@
                                                     <li><a id="sidebar-dropdown-li-9" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
                                                             <div class="plus-minus"></div>Essential Apps
                                                         </a></li>
-                                                    <div id="sidebar-list-9" class="fixes-drop">
+                                                    <div id="sidebar-list-9" class="fixes-drop checkbox_listing-1 checkbox_listing-2">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-27" >
+                                                                    <label for="modal-27">Steam</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-47" >
+                                                                    <label for="modal-47">Emulators</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Retroarch" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-28" >
+                                                                    <label for="modal-28">Miscellaneous</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Dolphin" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Dolphin</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-29" >
+                                                                    <label for="modal-29">Dolphin</label>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -889,87 +936,88 @@
                                                     <li><a id="sidebar-dropdown-li-8" class="dropdown-li dropdown-toggle plus-mode-1 d-flex" href="#">
                                                             <div class="plus-minus"></div>Special Apps
                                                         </a></li>
-                                                    <div id="sidebar-list-8" class="fixes-drop">
+                                                    <div id="sidebar-list-8" class="fixes-drop checkbox_listing-1 checkbox_listing-2">
                                                         <ul>
 
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Producitivity Tools" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1"> Producitivity Tools</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-30" >
+                                                                    <label for="modal-30">pRODUCTIVITY TOOLS</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Password Management" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1"> Password Management</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-31" >
+                                                                    <label for="modal-31">password Management</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Photos" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1"> Photos</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-32" >
+                                                                    <label for="modal-32">photos</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Audio & Music" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Audio & Music</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-33" >
+                                                                    <label for="modal-33">audio & music</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="CD/DVD/Blue-Ray" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">CD/DVD/Blue-Ray</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-34" >
+                                                                    <label for="modal-34">cd/dvd/blue ray</label>
                                                                 </div>
                                                             </li>
                                                             <li><a id="sidebar-dropdown-li-10" class="dropdown-li dropdown-toggle plus-mode-1 d-flex " href="#">
                                                                     <div class="plus-minus"></div>Gaming
                                                                 </a></li>
-                                                            <div id="sidebar-list-10">
+                                                            <div id="sidebar-list-10" class="checkbox_listing-1 checkbox_listing-2">
                                                                 <ul>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Game Stores" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Game Stores</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-35" >
+                                                                            <label for="modal-35">Game stores</label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Xbox" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Xbox</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-36" >
+                                                                            <label for="modal-36">xbox</label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Steam" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Steam</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-37" >
+                                                                            <label for="modal-37">Steam</label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Emulators" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Emulators</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-38" >
+                                                                            <label for="modal-38">Emulators</label>
                                                                         </div>
                                                                     </li>
                                                                     <li>
-                                                                        <div class="form-check">
-                                                                            <input type="checkbox" value="Retroarch" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                            <label class="form-check-label" for="exampleCheck1">Retroarch</label>
+                                                                        <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                            <input type="checkbox" id="modal-39" >
+                                                                            <label for="modal-39">Retroarch</label>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
                                                             </div>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Virtualization" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Virtualization</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-40" >
+                                                                    <label for="modal-40">Virtualization</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Miscellaneous" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Miscellaneous</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-40" >
+                                                                    <label for="modal-40">Miscellaneous</label>
                                                                 </div>
+
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -978,24 +1026,25 @@
                                                             <div class="plus-minus"></div>Files Data & Content
                                                         </a>
                                                     </li>
-                                                    <div id="sidebar-list-15">
+                                                    <div id="sidebar-list-15" class="checkbox_listing-1 checkbox_listing-2">
                                                         <ul>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="User Controls & Rights" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">User Controls & Rights</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-41" >
+                                                                    <label for="modal-41">User Controls & Rights</label>
+                                                                </div>
+
+                                                            </li>
+                                                            <li>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-41" >
+                                                                    <label for="modal-41">NEtwork Issue</label>
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Network Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Network Issues</label>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="form-check">
-                                                                    <input type="checkbox" value="Connection Issues" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                    <label class="form-check-label" for="exampleCheck1">Connection Issues</label>
+                                                                <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-42" >
+                                                                    <label for="modal-42">Connection iSSUE</label>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1005,18 +1054,18 @@
                                                             <div class="plus-minus"></div>Office Management & Security
                                                         </a>
                                                     </li>
-                                                    <div id="sidebar-list-16">
+                                                    <div id="sidebar-list-16" class="checkbox_listing-1 checkbox_listing-2">
                                                         <li>
-                                                            <div class="form-check">
-                                                                <input type="checkbox" value="FireWall" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                <label class="form-check-label" for="exampleCheck1">FireWall</label>
-                                                            </div>
+                                                            <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-43" >
+                                                                    <label for="modal-43">fIREWALL</label>
+                                                                </div>
                                                         </li>
                                                         <li>
-                                                            <div class="form-check">
-                                                                <input type="checkbox" value="Identity Theft" class="form-check-input exampleCheck13" id="exampleCheck1">
-                                                                <label class="form-check-label" for="exampleCheck1">Identity Theft</label>
-                                                            </div>
+                                                            <div class="form-group form-group-1 form-group-2 my-2 mx-2">
+                                                                    <input type="checkbox" id="modal-44" >
+                                                                    <label for="modal-44">identity theft</label>
+                                                                </div>
                                                         </li>
                                                     </div>
                                                 </ul>
@@ -1029,7 +1078,7 @@
                             <div class="row mb-3">
                                 <div class="col-md-12 label-problem-div text-right">
                                     <label class="label-problem" for="exampleFormControlSelect1">Get it fixed</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
+                                    <select class="form-control form-control-modal position-relative" id="exampleFormControlSelect1">
                                         <option>By All Users</option>
                                         <option>By A Particular User</option>
                                     </select>
@@ -1052,16 +1101,17 @@
                     </div>
                     </form>
                     <div class="text-center mt-4 blue-bg-under">
-                <button type="button" class="btn btn-primary default-btn ">Ask</button>
-            </div>
+                        <button type="button" class="btn btn-primary default-btn ">Ask</button>
+                    </div>
                 </div>
             </div>
-           
+
         </div>
     </div>
     </div>
     <!-- modal -->
 
+    
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -1185,10 +1235,17 @@
 
     <script>
         $(document).ready(function() {
+
+            $("#plus-mode").click(function() {
+                // $("#sidebar-dropdown-li-3").toggle();
+
+                $("#modal-mode").toggle();
+            });
             $("#sidebar-dropdown-li-2").click(function() {
                 // $("#sidebar-dropdown-li-3").toggle();
                 $("#sidebar-list-3").hide();
                 $("#sidebar-list-5").hide();
+                $("#sidebar-list-4").hide();
                 $("#sidebar-list-2").toggle();
             });
             ////////////////////////
@@ -1220,7 +1277,7 @@
 
                 }
             });
-              ////////////////////////
+            ////////////////////////
             $("#sidebar-dropdown-li-13").click(function() {
                 // $("#sidebar-dropdown-li-3").toggle();
                 $("#sidebar-dropdown-li-9").removeClass('active');
@@ -1248,7 +1305,7 @@
 
                 }
             });
-                ////////////////////////
+            ////////////////////////
             $("#sidebar-dropdown-li-14").click(function() {
                 // $("#sidebar-dropdown-li-3").toggle();
                 $("#sidebar-dropdown-li-9").removeClass('active');
@@ -1275,7 +1332,7 @@
 
                 }
             });
-                ////////////////////////
+            ////////////////////////
             $("#sidebar-dropdown-li-15").click(function() {
                 // $("#sidebar-dropdown-li-3").toggle();
                 $("#sidebar-dropdown-li-9").removeClass('active');
@@ -1303,7 +1360,7 @@
 
                 }
             });
-                ////////////////////////
+            ////////////////////////
             $("#sidebar-dropdown-li-16").click(function() {
                 // $("#sidebar-dropdown-li-3").toggle();
                 $("#sidebar-dropdown-li-9").removeClass('active');
@@ -1311,7 +1368,7 @@
                 $("#sidebar-dropdown-li-10").removeClass('active');
                 $("#sidebar-dropdown-li-8").removeClass('active');
                 $("#sidebar-dropdown-li-12").removeClass('active');
-                 $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
                 $("#sidebar-dropdown-li-14").removeClass('active');
                 $("#sidebar-dropdown-li-15").removeClass('active');
                 $("#sidebar-list-9").hide();
@@ -1419,7 +1476,7 @@
                 $("#sidebar-list-6").toggle();
             });
             /////////////////////////////
-            
+
             /////////////////////////////////////////
             $("#sidebar-dropdown-li-10").click(function() {
                 // $("#sidebar-dropdown-li-8").removeClass('active');
@@ -1445,10 +1502,10 @@
                 $("#sidebar-dropdown-li-9").removeClass('active');
                 $("#sidebar-dropdown-li-10").removeClass('active');
                 $("#sidebar-dropdown-li-12").removeClass('active');
-                 $("#sidebar-dropdown-li-13").removeClass('active');
-                 $("#sidebar-dropdown-li-14").removeClass('active');
-                 $("#sidebar-dropdown-li-15").removeClass('active');
-                 $("#sidebar-dropdown-li-16").removeClass('active');
+                $("#sidebar-dropdown-li-13").removeClass('active');
+                $("#sidebar-dropdown-li-14").removeClass('active');
+                $("#sidebar-dropdown-li-15").removeClass('active');
+                $("#sidebar-dropdown-li-16").removeClass('active');
                 $("#sidebar-list-9").hide();
                 $("#sidebar-list-13").hide();
                 $("#sidebar-list-14").hide();
@@ -1486,8 +1543,7 @@
     </script>
 
 
-
-
+    <!-- new -->
 
 
 
